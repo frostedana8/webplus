@@ -1,0 +1,11 @@
+body {background-color:#D289C6;}
+h1 {color:#633974; font-family: Comic Sans MS; }
+h2 {color:#572808; font-family: Comic Sans MS; font-size:95%; }
+h3 {color:#1A5276; font-family: Comic Sans MS; font-size:111%; text-align:justify; }
+img {height: 300px; width: 300px;}
+.list{
+	margin-left: 750px;
+    text-align: left;
+    display:inline-block;
+}
+h4 {color:#1E8449; font-family: Comic Sans MS; font-size:111%;}
