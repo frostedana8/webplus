@@ -1,0 +1,54 @@
+<!doctype html>
+<html> 
+								<head>
+	    <meta charset="iso-8559-1" />                                  <!-- Especifica cómo se ve el texto. -->
+		<meta http-equiv=”Content-Type” content=”text/html; charset=ISO-8859-1″ />
+		<meta name="description" content="Página sobre los tardígrados."/> <!-- Descripción de la página web. -->
+		<meta name="keyword" content="Rusia, guerra, Ucrania, Dombás, Crimea, chechenos, Chechenia"/>       <!-- Palabras clave. -->
+		<title> La importancia de el pueblo checheno en la invasión. </title>                                  <!-- Título. -->
+		<link rel="stylesheet" href="estilos3.css"/>      <!-- Estilo de la hoja.-->
+								</head>
+								<body>
+
+			<header id="cabecera">
+
+	<p> Chechenos y su importancia en la guerra. </p>
+
+			</header> 
+
+			<nav id="navegacion">
+
+	
+
+			</nav>
+
+<aside id="barralateral">
+
+
+
+
+</aside>
+
+<section id="section"> 
+											<p>
+ Chechenia es una de las repúblicas que conforman la federación rusa, tras la guerra de 1999 entre los islamistas y Rusia, los mercenarios chechenos que participaron en esa guerra vagaron por el mundo
+ participando en conflictos bélicos a cambio de dinero, es por eso que el pueblo checheno es famoso por ser un pueblo mercenario, y en esta guerra no son menos. Más de 10k soldados chechenos se alistaron
+ al conflicto en los anteriores días, y se estima que pueden llegar a participar hasta 70k. Los chechenos, quienes en muchos casos tienen mejor material y armas de mayor calidad que el ejército Ruso, serán
+ un papel muy importante en esta guerra.
+ Se han podido observar y fotografiar a varios integrantes del "Escuadrón de la muerte" haciendo formaciones militares en un bosque ucraniano mientras realizaban rituales de oración antes de posibles combates. 
+ Muchos especulan que este escuadrón tiene como objetivo capturar a los principales dirigentes del gobierno ucraniano. Sin embargo, la mayor hipótesis es que Rusia les envía para minar psicológicamente a los
+ combatientes ucranianos y conseguir su rendición.
+ Como puedan influir en la guerra, lo veremos en los próximos días.
+											</p>
+</section>
+
+<footer> 
+<img src = "imagenes/chechenos.png" widht="200" height="200" />
+<a href="ejercicio 7.html" > Vuelta a la p&aacute;gina principal. </a>
+</footer>
+
+
+
+</body>
+							
+							</html>

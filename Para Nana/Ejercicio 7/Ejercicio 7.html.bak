@@ -1,0 +1,61 @@
+
+
+
+<!doctype html>
+<html> 
+								<head>
+	    <meta charset="iso-8559-1" />                                  <!-- Especifica cómo se ve el texto. -->
+		<meta http-equiv=”Content-Type” content=”text/html; charset=ISO-8859-1″ />
+		<meta name="description" content="Página informativa sobre la invasión rusa a Ucrania"/> <!-- Descripción de la página web. -->
+		<meta name="keyword" content="Rusia, guerra, Ucrania, Dombás, Crimea"/>       <!-- Palabras clave. -->
+		<title> Periódico digital. </title>                                  <!-- Título. -->
+		<link rel="stylesheet" href="estilos.css"/>      <!-- Estilo de la hoja.-->
+								</head>
+								
+									
+									
+										<body>
+
+			<header id="cabecera">
+
+	<p> Noticias guerra Rusia-Ucrania. </p>
+
+			</header> 
+
+			<nav id="navegacion">
+
+	<a href="pagina1-resumendelainvasion.html"> Resumen de la invasi&oacute;n. </a>
+
+	<a href="pagina2-chechenosysuimportanciaenlaguerra.html"> Chechenos y su importancia en la guerra. </a>
+
+	<a href="pagina3-antecedentesalaguerra.html"> Antecedentes a la guerra. </a>
+
+			</nav>
+
+<aside id="barralateral">
+
+
+<a href="periodicoinformacion.html"> Informaci&oacute;n legal del peri&oacute;dico. </a> 
+
+
+
+</aside>
+
+<section id="section"> 
+
+<img src = "imagenes/guerra.png" widht="100" height="100" />
+<img src = "imagenes/guerraymasguerra.png" widht="100" height="100" HSPACE="40"/>
+<img src = "imagenes/guerrapumpum.png" widht="100" height="100" HSPACE="50"/>
+
+
+</section>
+
+
+
+
+
+</body>
+							
+							</html>
+
+

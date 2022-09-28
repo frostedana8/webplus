@@ -1,0 +1,44 @@
+<!-- Indicamos que trabajamos con el estándar HTML 5. -->
+			<!doctype html>
+<!-- Etiqueta de apertura de página. -->
+								<html>
+
+<!-- En el encabezado: título, iconos, hojas de estilos, JavaScript, etc -->
+								<head>
+	    <meta charset="iso-8559-1" />                                  <!-- Especifica cómo se ve el texto. -->
+		<meta name="description" content="Página de enseñanza HTML5"/> <!-- Descripción de la página web. -->
+		<meta name="keyword" content="HTML5, CSS3, JavaScript"/>       <!-- Palabras clave. -->
+		<title> Iker Sánchez </title>                                  <!-- Título. -->
+		<link rel="stylesheet" href="estilos.css"/>      <!-- Estilo de la hoja.-->
+								</head>
+									
+<!-- En el cuerpo de la página web es donde podemos insertar texto. -->
+								<body>
+		<header id="cabecera">
+			<h1>Examen paginas web.</h1>             		 <!-- La cabecera de la página web.-->
+		</header>  
+		<nav id="nav">
+			<p> Menu1 </p>		
+			<p> Menu2 </p>
+			<p> Menu3 </p>
+			<p> Menu4 </p>
+			<p> Menu5 </p>
+	
+		</nav>
+		<aside id="aside">
+			<p> Barra lateral </p>               <!-- Barra lateral de la página web. -->
+		</aside>
+		<section id="nav">
+			<figure> 
+			<img src ="imagenes\musculitos.jpg" />
+			<img src ="imagenes\musculitos.jpg" />
+		</section>
+		<footer id="uuu">
+			<p> Esto es el footer. </p>  
+		</footer>
+
+								</body>
+							
+							</html>
+
+

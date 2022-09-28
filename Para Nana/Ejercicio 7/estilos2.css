@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+#cabecera {
+	
+		width:500px;
+		background-color:#F419F7;
+		text-aling:center;
+		margin:15px auto;
+		padding:15 px auto;
+		border:3px solid #9D06D9;
+		border-radius:20px 15px 10px 50px;
+		font:bold 36px verdana, geneva, sans-serif;
+		box-shadow:#999 18px 15px 10px;
+		text-shadow:#9D06D9;
+		8px 8px 15px;
+
+   		  }
+
+

@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+
+@font-face {
+	
+	Font-family:'MiPropiaFuente';
+	Src:url('orange.ttf');
+	
+			}
+
+#cabecera {
+	width:300px;
+	text-align:center;
+	margin:15px auto;
+	
+	
+		}
+
+#cabecera {
+	Font:bold 40px 'MiPropiaFuente';
+	background:-webkit-radial-gradient(center, ellipse, #FB0202, #FB0202);
+	background:-webkit-linear-gradient(top, #FB0202, #07FB02);
+	color:rgba(0, 0, 0, 0.5);
+	
+}
+
+
+
+#navegacion 
+          { 
+		  
+	    background-color:#84FF00; display:inline;
+
+         }
+
+#barralateral 
+        {
+
+background-color:#3B6C06; float:left; Height: 1000px; 
+        }
+
+#section {
+	
+	}
+
+#pie {
+	
+	background-color: #EF06B6; clear: both;
+	
+     }

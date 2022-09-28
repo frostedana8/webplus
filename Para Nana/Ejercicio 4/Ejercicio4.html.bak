@@ -1,0 +1,32 @@
+<!doctype html>
+<html> 
+
+								<head>
+	    <meta charset="iso-8559-1" />                                  <!-- Especifica cómo se ve el texto. -->
+		<meta http-equiv=”Content-Type” content=”text/html; charset=ISO-8859-1″ />
+		<meta name="description" content="Prueba de introducción de distintas imágenes en HTML."/> <!-- Descripción de la página web. -->
+		<meta name="keyword" content="Imágenes, HTML, CSS"/>       <!-- Palabras clave. -->
+		<title> Ejercicio 3. </title>                                  <!-- Título. -->
+		<link rel="stylesheet" href="estilos.css"/>      <!-- Estilo de la hoja.-->
+								</head>
+					<body> 
+					
+					
+	
+					<header id="cabecera">
+
+	<p>Explicación  Ejercicio 4	</p>
+	<h2> H2	</h2>
+	<h3> H3	</h3>
+	<h4> H4	</h4>
+
+					</header> 
+					
+					
+					
+					
+					</body>
+
+
+
+</html>

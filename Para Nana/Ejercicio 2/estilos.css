@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+p {margin-left:50px;}
+
+#cabecera {
+	
+		background-color:#D42E2E;
+
+   		  }
+
+
+#navegacion 
+          { 
+		  
+	    background-color:#84FF00; display:inline;
+
+         }
+
+#barralateral 
+        {
+
+background-color:#3B6C06; float:left; Height: 1000px;
+
+        }
+
+#section {background-color:#06146C; }
+
+#pie {
+	
+	background-color: #EF06B6; clear: both;
+	
+     }

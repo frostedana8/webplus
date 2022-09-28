@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+
+@font-face {
+	
+	Font-family:'MiPropiaFuente';
+	Src:url('orange.ttf');
+	
+			}
+
+#cabecera {
+	width:200px;
+	text-align:center;
+	margin:15px auto;
+	-webkit-transform:scale(2);
+	-webkit-transform:scale(2,-1);
+	-webkit-transform:rotate(20deg);
+	-webkit-transform:skew(30deg);
+	
+		}
+		
+#cabecera:hover { 
+    -webkit-transform:rotate(5deg);
+	-webkit-trasition:-webkit-transform 1s ease 0.5s;
+}
+
+#cabecera {
+	Font:bold 30px 'MiPropiaFuente';
+	background:-webkit-radial-gradient(center, ellipse, #00FFF2, #F80808);
+	background:-webkit-linear-gradient(top, #00FFF2, #FF0000);
+	color:rgba(0, 0, 0, 0.5);
+	
+}

@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+@font-face {
+	
+	Font-family:'MiPropiaFuente';
+	Src:url('orange.ttf');
+	
+			}
+
+#cabecera {
+	
+	Font:bold 48px 'MiPropiaFuente';
+	background:-webkit-radial-gradient(center,ellipse, #FF0000, #581845);
+	background:-webkit-linear-gradient(top, #FF0000, #581845);
+	Color:rgba(0,0,0,0.5);
+		}

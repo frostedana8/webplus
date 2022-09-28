@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+p {
+ display:inline;
+}
+
+#cabecera { 
+        background-color:#09FF00;
+
+}
+
+#nav {
+		background-color:#FFC300;
+	
+}
+#aside {
+		background-color:#6B6A66;
+}
+
+
+#aaa {
+		background-color:#000000;
+}
+
+
+#uuu {
+		background-color:#FA00F6;
+}

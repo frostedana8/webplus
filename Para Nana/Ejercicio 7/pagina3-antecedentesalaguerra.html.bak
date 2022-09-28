@@ -1,0 +1,52 @@
+<!doctype html>
+<html> 
+								<head>
+	    <meta charset="iso-8559-1" />                                  <!-- Especifica cómo se ve el texto. -->
+		<meta http-equiv=”Content-Type” content=”text/html; charset=ISO-8859-1″ />
+		<meta name="description" content="Página sobre los tardígrados."/> <!-- Descripción de la página web. -->
+		<meta name="keyword" content="Rusia, guerra, Ucrania, Dombás, Crimea"/>       <!-- Palabras clave. -->
+		<title> Antecedentes a la guerra. </title>                                  <!-- Título. -->
+		<link rel="stylesheet" href="estilos4.css"/>      <!-- Estilo de la hoja.-->
+								</head>
+								<body>
+
+			<header id="cabecera">
+
+	<p> Antecedentes a la guerra. </p>
+
+			</header> 
+
+			<nav id="navegacion">
+
+	
+
+			</nav>
+
+<aside id="barralateral">
+
+
+
+
+</aside>
+
+<section id="section"> 
+											<p>
+ Ucrania y Rusia siempre tuvieron tensiones debido a la inclinación pro occidente de parte de Ucrania y la problemática étnica en el Dombás (este de Ucrania). Rusia quería tener cierta influencia
+ sobre el Dombás pidiendo su independencia de Ucrania o la anexión a la Federación Rusia. La problemática de la independencia escaló en el 2014, hasta el punto de que los manifestantes pro
+ rusos se armaron con cascos, escudos y porras antidisturbios improvisados, y la respuesta de el estado ucraniano fue letal, hasta el punto de iniciar un conflicto armado en la zona en el que
+ se bombardearon urbanizaciones civiles. Además de eso, Rusia se anexionó Crimea ese mismo año, la cuál también tenía una gran cantidad de ciudadanos pro rusos residentes. Eso terminó de virar
+ al estado ucraniano a una deriva pro occidental. Este 2022 Rusia usó como excusa para la invasión el conflicto en el Dombás, la militariazación ucraniana de los últimos años y la existencia de ciertos
+ elementos supuestamente neonazis en el Estado.
+											</p>
+</section>
+
+<footer> 
+<img src = "imagenes/dombas.png" widht="200" height="200" />
+<a href="ejercicio 7.html" > Vuelta a la p&aacute;gina principal. </a>
+</footer>
+
+
+
+</body>
+							
+							</html>
