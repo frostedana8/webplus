@@ -1,0 +1,10 @@
+Parche 0.2
+-Añadida tabla de contenido de la wiki (Incluye los hipervínculos y un gif por cada sección)
+-Añadidos suficientes gifs de pie de página como para que todos sepan mi orientación sexual de forma clara
+-Las direcciones de las imágenes han sido adaptadas para comodidad de todas
+-Actualizada la lista de villanos y héroes del IBEX (Añadido el Jardinero, El Hombre Escatológico y el Hombre Intermitente)
+-Se ha añadido negrita y cursiva
+-Se ha creado una página para cuando los hipervínculos no llevan a ningún lado
+-Cambiado el aburrido separador de html por un gif hortera de 2003
+-Centrados algunos textos
+-Rolly eliminado.
