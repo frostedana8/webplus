@@ -1,0 +1,13 @@
+Parche 0.3
+-¡Añadida hoja de estilo!
+-La fuente ahora es Comic Sans, Dios tenga piedad de mi alma pecadora
+-Cambiado el color de la fuente a uno legible
+-Añadido fondo noventero terriblemente hortera a la tabla
+-Cambiado el borde de la tabla para ser de 3 píxeles 
+-Cambiado de color el borde de la tabla al complementario del fondo, yo que sé, no doy diseño
+-Transformados los Links de hipervínculos aburridos a extremos botones tope geniales (creo que molan mucho)
+-Cambiados los aburridos puntos por extremas flechas en las listas no numeradas
+-Transladadas las opciones de estilo temporal a la hoja de estilo principal
+-Cambiado la autora de "Eris" a "Erizo14" para hacerla más reconocible
+-Cambiado el nombre del archivo html principal para hacerlo menos engorroso; a cambio, ahora es menos gracioso
+-Rolly eliminado.

@@ -1,9 +1,33 @@
 
-  table, th, td{
-    border: 2px solid black;
+  h1{color: rgb(179, 173, 215)}
+  h1{ font-family: Impact}
+  h2{ font-family: Comic Sans MS}
+  h2{ color:aliceblue}
+  h3{ color:aliceblue}
+   h4{ color:aliceblue}
+  h5{ color:aliceblue}
+   h6{ color:aliceblue}
+  p{ color: aliceblue}
+          
+          
+   a:link {color:rgb(135, 227, 250)}
+   a:visited {color:rgb(240, 189, 245)}
+
+body{background-color:#525252;}
+
+  
+  
+table, th, td{
+    border: 2px solid rgb(255, 255, 255);
+    padding-left: 2px;
+    padding-right: 2px
+
   }
 
+.nota{
+  position:absolute; top: 20px; right: 40px;
 
+}
 
 
 
@@ -30,7 +54,7 @@
   .popup {
     margin: 70px auto;
     padding: 20px;
-    background: #fff;
+    background: #525252;
     border-radius: 5px;
     width: 80%;
     position: relative;
@@ -42,13 +66,13 @@
   
   .popup h2 {
     margin-top: 0;
-    color: #333;
+    color: rgb(123, 218, 173);
     font-family: Tahoma, Arial, sans-serif;
   }
   .popup .close {
     position: absolute;
-    top: 20px;
-    right: 30px;
+    top: 0px;
+    right: 10px;
     transition: all 200ms;
     font-size: 30px;
     font-weight: bold;

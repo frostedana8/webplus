@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>¡Álbumes!</title>
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <!-- JavaScript Bundle with Popper -->
@@ -33,11 +33,22 @@
 </head>
 
 
-<body>
+<body style="padding:1%">
+  <header><button style="position:absolute; top: 10px; right: 10px; font-size: large; background-color: rgb(54, 92, 109);"> <a href="https://frostedana8.github.io/pajas.cum/">Volver al índice</a></button></header>
 
-  HTML culero que me he robado de la misma web india que el CSS y bueno he borrado las cosas que sobraban (soy muy buena programadora) estos botones son debug
+<h1>Archivo del hilo de álbumes</h1> 
 
-    <a href="#popup1">Contenido</a>
+<h5><a href="https://twitter.com/turboputa/status/1557514741224017922" target=”_blank”>Ver hilo original en Twitter</a></h5>
+<p>Esta web es compleja de programar para mis capacidades y aún está en proceso. He de copiar más álbumes, mejorar el aspecto y arreglar el JavaScript que ordena la tabla. Ruego paciencia.</p>
+<h5>Haz click en las cabeceras de las columnas para ordenarlas</h5>
+
+
+
+
+  
+  <!--HTML culero que me he robado de la misma web india que el CSS y bueno he borrado las cosas que sobraban (soy muy buena programadora) estos botones son debug
+  
+  <a href="#popup1">Contenido</a>
 
     <a href="#popup2">Popup 2</a>
 
@@ -62,7 +73,7 @@
       </div>
     </div>
   </div>
-  
+-->
 
 
 
@@ -70,21 +81,142 @@
 <table id="myTable">
     <tr>
       
-      <th onclick="sortTable(0)">Álbum</th>
-      <th onclick="sortTable(1)">Artista</th>
-      <th onclick="sortTable(2)">Duración</th>
-      <th onclick="sortTable(3)">Fecha de salida (Y/M/D)</th>
-      <th onclick="sortTable(4)">Nota (sobre 10)</th>
-      <th onclick="sortTable(5)">Fecha de review (Y/M/D)</th>
-      <th>Imágen</th>
+      <th onclick="sortTable(0)"><p>Álbum</p></th>
+      <th onclick="sortTable(1)"><p>Artista</p></th>
+      <th onclick="sortTable(2)"><p>Duración</p></th>
+      <th onclick="sortTable(3)"><p>Fecha de salida (Y/M/D)</p></th>
+      <th onclick="sortTable(4)"><p>Nota (sobre 10)</p></th>
+      <th onclick="sortTable(5)"><p>Fecha de review (Y/M/D)</p></th>
+      <th><p>Imágen</p></th>
     </tr>
 
+<!-- PLANTILLA
+
+    <tr>
+      <td><p><a href="#id">Título</a></td></p>
+      <td><p>Artista</td></p>
+      <td><p>Duración</td></p>
+      <td><p>Salida</td></p>
+      <td><p>Nota</td></p>
+      <td><p>FechaReview</td></p>
+      <td><p><img src="imagenesalbumes/.png" alt="" height="100px", width="100px"></td></p>
+    </tr>
+
+    <div id="id" class="overlay">
+      <div class="popup">
+        <h2 class="nota">Nota/10</h2>
+        <h2 style="padding-right: 20%;">Título</h2> <h6>Por Artista</h6>
+        <a class="close" href="#">&times;</a>
+        <div class="content">
+          <p>Review review review
+          </p>
+          <hr>
+          IFRAME DE SPOTIFY o equivalente (height 200px)
+        </div>
+      </div>
+    </div>
+
+
+-->
 
 
 
 
 
 
+
+
+
+
+
+
+
+<tr>
+  <td><p><a href="#mybeautifuldarktwistedfantasy">My Beautiful Dark Twisted Fantasy</a></td></p>
+  <td><p>Kanye West</td></p>
+  <td><p>68 min</td></p>
+  <td><p>2010/11/22</td></p>
+  <td><p>4</td></p>
+  <td><p>2022/11/03</td></p>
+  <td><p><img src="imagenesalbumes/mybeautifuldarktwistedfantasy.png" alt="" height="100px", width="100px"></td></p>
+</tr>
+
+<div id="mybeautifuldarktwistedfantasy" class="overlay">
+  <div class="popup">
+    <h2 class="nota">4/10</h2>
+    <h2 style="padding-right: 20%;">My Beautiful Dark Twisted Fantasy</h2> <h6>Por Kanye West</h6>
+    <a class="close" href="#">&times;</a>
+    <div class="content">
+      <p>
+        Puedo entender a que se refiere Kanye cuando dice que algunas de estas canciones llevaron miles y miles de horas de trabajo. La producción de cada una de las canciones es increíble, cientos de sonidos y voces, la cantidad de capas que hay en cada canción y los efectos y modificaciones que tiene cada una de ellas hacen que el sonido, la atmósfera del álbum, sea inigualable. Sin embargo eso es todo lo bueno que tengo que decir. En ningún momento nadie dijo "esto es demasiado" o "Kanye, creo que el rap debería tener mejor calidad" y se nota. Las horas solo se invirtieron en producción, no en lírica o en el aspecto de rap en general. Canciones repetitivas de 5, 7 y hasta 9 minutos algunas de ellas con Kanye haciendo ruido durante los 3 últimos (va por tí, <strong>Runaway</strong>). Cualquiera de estas canciones podría durar 4 minutos o menos sin perder nada. Se hace muy cansado escuchar cualquiera de las canciones. Es, simplemente, demasiado. Y es una pena, porque todo aquí tiene muchísimo potencial... pero, como en todos los álbumes de Ye, tenemos que ver como ese potencial se escurre entre nuestros dedos y es completamente arruinado. Para sorpresa de nadie, <strong>POWER</strong> es mi canción favorita del álbum, también he disfrutado mucho de <strong>Monster</strong>, <strong>Dark Fantasy</strong> y <strong>Hell Of A Life</strong>, aunque todas ellas podrían ser más cortas y mejorarían bastante. Las demás en su mayoría están bien, pero acaban siendo molestas para cuando estás llegando al final de la canción. Las que se me han hecho desagradables han sido <strong>Runaway</strong>, <strong>Gorgeous</strong> y <strong>Devil In A New Dress</strong>. Podría haber sido un álbum mucho mejor. En serio, si las canciones duraran la mitad ganaría mucho el álbum.
+
+      </p>
+      <hr>
+      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/20r762YmB5HeofjMCiPMLv?utm_source=generator" width="100%" height="200" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+<tr>
+  <td><p><a href="#thrillseeker">Thrill Seeker</a></td></p>
+  <td><p>Sub Urban</td></p>
+  <td><p>19 min</td></p>
+  <td><p>2020/03/13</td></p>
+  <td><p>9.5</td></p>
+  <td><p>2022/11/03</td></p>
+  <td><p><img src="imagenesalbumes/thrill seeker.png" alt="" height="100px", width="100px"></td></p>
+</tr>
+
+<div id="thrillseeker" class="overlay">
+  <div class="popup">
+    <h2 class="nota">9.5/10</h2>
+    <h2 style="padding-right: 20%;">Thrill Seeker</h2> <h6>Por Sub Urban</h6>
+    <a class="close" href="#">&times;</a>
+    <div class="content">
+      <p>
+      Un EP muy bueno, normalmente la estética cirquense no suele ser lo mío pero esta es una gran excepción. Es el primer álbum que recuerdo escuchar y menos mal que lo hice. <strong>Freak</strong> es mi canción favorita de este álbum y una de mis canciones favoritas jamás. <strong>KMS</strong> e <strong>Isolate</strong> son dos canciones con las que ocasionalmente identificarme y sentirme a gusto en la miseria. <strong>Spring Fever</strong> y <strong>Cirque</strong> hablan sobre amor, la primera de forma melancólica y la segunda de una forma algo más animada. <strong>Cliché</strong> habla sobre... ¿una pareja estereotípica? Eso es todo, creo. De <strong>when the flies fell</strong> no entiendo nada ni me parece una buena canción que escuchar pero va muy bien para cerrar el EP. Y eso es todo, es cortito pero muy sólido, muy bueno, casi perfecto, mi única queja es que quizás me cansa un poco la voz de Sub Urban.
+      </p>
+      <hr>
+      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/0PTvzABaWDvafuJ8MZplha?utm_source=generator" width="100%" height="200" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+<tr>
+  <td><p><a href="#uglyisbeautiful">Ugly is Beautiful</a></td></p>
+  <td><p>Oliver Tree</td></p>
+  <td><p>37 min</td></p>
+  <td><p>2020/07/17</td></p>
+  <td><p>4</td></p>
+  <td><p>2022/11/03</td></p>
+  <td><p><img src="imagenesalbumes/uglyisbeautiful.png" alt="" height="100px", width="100px"></td></p>
+</tr>
+
+<div id="uglyisbeautiful" class="overlay">
+  <div class="popup">
+    <h2 class="nota">4/10</h2>
+    <h2 style="padding-right: 20%;">Ugly is Beautiful</h2> <h6>Por Oliver Tree</h6>
+    <a class="close" href="#">&times;</a>
+    <div class="content">
+      <p>
+        Este álbum es una recopilación de canciones viejas con algunas añadidas. Osea, de las 14 canciones del álbum, 6 ya habían salido antes, y no en plan singles promocionales. Es más un recopilatorio que otra cosa. Además todas esas canciones ya las tenía muy oídas y quemadas de antes así que aunque son bastante buenas no me entusiasma oírlas más. A esto se le suma que aunque en vacío me gusta la música de Oliver, como producto la odio porque es puro marketing sin alma para sacar dinero, todo suena super comercial. Las canciones nuevas para el álbum que más me han gustado han sido <stong>1993</stong>,  <stong>Jerk</stong> y<strong>Bury Me Alive</strong>, de las antiguas <strong>Alien Boy</strong>, <strong>Introspective</strong> y <strong>Hurt</strong>. Creo que <strong>I'm Gone</strong> es la que menos me ha gustado, junto con <strong>Me, Myself and I</strong>. De nuevo, soy consciente de que toda esta música es super comercial pero aún así disfruto de ella. Vaya, <strong>Introspective</strong> es bombo caja platillos guitarra y voz (ni si quiera se entiende que dice), y aún así suena genial, no todo tiene que ser complejo siempre. Muy extraña la situación con <strong>Jerk</strong>, donde la rehizo con Robin Schulz hace poco bajo el nombre de "Miss You", que es la misma canción pero acelerada, que a su vez tiene una versión aún más acelerada (Miss You - Sped Up Version)... no entiendo nada. Como sea, las canciones no son malas, solo genéricas y lo poco que las pudiera salvar es contrarrestado por haberlas escuchado cientos de veces en este punto y tenerlas más que quemadas. Al menos para las canciones originales del álbum aprendió a poner bajo en la música.
+      </p>
+      <hr>
+      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/1HmWQo43Gt8BR2dylfv3o4?utm_source=generator" width="100%" height="200px" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>    </div>
+  </div>
+</div>
 
 
 
@@ -92,21 +224,23 @@
 
 
     <tr>
-      <td><a href="#bumpthis">Bump This</a></td>
-      <td>Danny Gonzalez</td>
-      <td>15 min</td>
-      <td>2019/4/26</td>
-      <td>7</td>
-      <td>2022/10/26</td>
-      <td><img src="imagenesalbumes/bumpthis.png" alt="" height="100px", width="100px"></td>
+      <td><p><a href="#bumpthis">Bump This</a></td></p>
+      <td><p>Danny Gonzalez</td></p>
+      <td><p>15 min</td></p>
+      <td><p>2019/04/26</td></p>
+      <td><p>7</td></p>
+      <td><p>2022/10/26</td></p>
+      <td><p><img src="imagenesalbumes/bumpthis.png" alt="" height="100px", width="100px"></td></p>
     </tr>
 
     <div id="bumpthis" class="overlay">
       <div class="popup">
-        <h2>Bump this</h2> <h6>Por Danny Gonzalez</h6>
+        <h2 class="nota">7/10</h2>
+        <h2 style="padding-right: 20%;">Bump this</h2> <h6>Por Danny Gonzalez</h6>
         <a class="close" href="#">&times;</a>
         <div class="content">
-          Un pequeño EP de 15 minutos y 6 canciones por un youtuber, ahora ex-viner, con la mayoría de canciones siendo parodias de las tendencias de 2019, usando expresiones como "yass", una canción hablando sobre ser un youtuber al que no le importa nada más que la fama y el dinero aunque sea a costa de ser una persona horrible, o incluso una canción entera llamada <strong>The Tea</strong>, la cual por cierto creo que es la que menos me gusta junto a <strong>Bad Boy</strong>. Mi favorita, por otro lado, es sin duda <strong>Train</strong>, que habla sobre como ya no se flexea con coches o mansiones, sino con trenes y submarinos (¿y delfines?). Es un EP cortito y cómico, muy recomendado, así como todo el contenido en YouTube de Danny Gonzalez.
+          <p>Un pequeño EP de 15 minutos y 6 canciones por un youtuber, ahora ex-viner, con la mayoría de canciones siendo parodias de las tendencias de 2019, usando expresiones como "yass", una canción hablando sobre ser un youtuber al que no le importa nada más que la fama y el dinero aunque sea a costa de ser una persona horrible, o incluso una canción entera llamada <strong>The Tea</strong>, la cual por cierto creo que es la que menos me gusta junto a <strong>Bad Boy</strong>. Mi favorita, por otro lado, es sin duda <strong>Train</strong>, que habla sobre como ya no se flexea con coches o mansiones, sino con trenes y submarinos (¿y delfines?). Es un EP cortito y cómico, muy recomendado, así como todo el contenido en YouTube de Danny Gonzalez.
+          </p>
           <hr>
           <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/7eLPkvLJA7expfH0E330Fg?utm_source=generator" width="100%" height="200" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
         </div>
@@ -117,21 +251,23 @@
 
 
     <tr>
-      <td><a href="#IGOR">IGOR</a></td>
-      <td>Tyler, The Creator</td>
-      <td>40 min</td>
-      <td>2019/5/17</td>
-      <td>8,5</td>
-      <td>2022/9/27</td>
-      <td><img src="imagenesalbumes/IGOR.png" alt="" height="100px", width="100px"></td>
+      <td><p><a href="#IGOR">IGOR</a></td></p>
+      <td><p>Tyler, The Creator</td></p>
+      <td><p>40 min</td></p>
+      <td><p>2019/05/17</td></p>
+      <td><p>8.5</td></p>
+      <td><p>2022/09/27</td></p>
+      <td><p><img src="imagenesalbumes/IGOR.png" alt="" height="100px", width="100px"></td></p>
     </tr>
 
     <div id="IGOR" class="overlay">
       <div class="popup">
-        <h2>IGOR</h2> <h6>Por Tyler, The Creator</h6>
+        <h2 class="nota">8.5/10</h2>
+        <h2 style="padding-right: 20%;">IGOR</h2> <h6>Por Tyler, The Creator</h6>
         <a class="close" href="#">&times;</a>
         <div class="content">
-         Fue por este álbum por lo que empecé a escuchar a Tyler. Mis canciones favoritas syuas siempre fueron <strong>NEW MAGIC WAND</strong> y <strong>WHAT'S GOOD</strong>, <strong>I THINK</strong> tambien me gusta bastante. <strong>PUPPET</strong> y <strong>I DONT LOVE YOU ANYMORE</strong> no encajan del todo conmigo, al igual que la primera parte de <strong>GONE GONE / THANK YOU</strong>. Aún así, las disfruto como parte del álbum. Para quien no lo sepa ya, IGOR es un álbum conceptual que cuenta una historia a lo largo de este. Me gusta mucho, me identifico con varias emociones expresadas en este. Muy recomendado.
+        <p>Fue por este álbum por lo que empecé a escuchar a Tyler. Mis canciones favoritas syuas siempre fueron <strong>NEW MAGIC WAND</strong> y <strong>WHAT'S GOOD</strong>, <strong>I THINK</strong> tambien me gusta bastante. <strong>PUPPET</strong> y <strong>I DONT LOVE YOU ANYMORE</strong> no encajan del todo conmigo, al igual que la primera parte de <strong>GONE GONE / THANK YOU</strong>. Aún así, las disfruto como parte del álbum. Para quien no lo sepa ya, IGOR es un álbum conceptual que cuenta una historia a lo largo de este. Me gusta mucho, me identifico con varias emociones expresadas en este. Muy recomendado.
+        </p>
          <hr>
          <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/5zi7WsKlIiUXv09tbGLKsE?utm_source=generator" width="100%" height="200" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
         </div>
@@ -142,23 +278,24 @@
 
 
     <tr>
-      <td> <a href="#flowerboy">Flower Boy</a></td>
-      <td>Tyler, The Creator</td>
-      <td>46 min</td>
-      <td>2017/7/21</td>
-      <td>8</td>
-      <td>2022/9/27</td>
-      <td><img src="imagenesalbumes/flowerboy.png" alt="" height="100px", width="100px"></td>
+      <td><p><a href="#flowerboy">Flower Boy</a></td></p>
+      <td><p>Tyler, The Creator</td></p>
+      <td><p>46 min</td></p>
+      <td><p>2017/07/21</td></p>
+      <td><p>8</td></p>
+      <td><p>2022/09/27</td></p>
+      <td><p><img src="imagenesalbumes/flowerboy.png" alt="" height="100px", width="100px"></td></p>
     </tr>
 
 
     <div id="flowerboy" class="overlay">
       <div class="popup">
-        <h2>Flower Boy</h2> <h6>Por Tyler, The Creator</h6>
+        <h2 class="nota">8/10</h2>
+        <h2 style="padding-right: 20%;">Flower Boy</h2> <h6>Por Tyler, The Creator</h6>
         <a class="close" href="#">&times;</a>
         <div class="content">
-          Hip hop algo suave, más emocional, no es tanto mi estilo por lo general pero este álbum es sublime. Mis canciones favoritas son <strong>Who Dat Boy</strong>, <strong>I Ain't Got Time</strong> y <strong>Pothole</strong>, aunque muchas otras como <strong>Where This Flower Blooms</strong>, <strong>See You Again</strong>, <strong>November</strong> o <strong>Glitter</strong> también me han gustado mucho. En general es un álbum que me ha encantado y siento que no tiene una nota más alta simplemente porque no estoy familiarizada más con estas canciones, lo cual cambiará pronto ya que seguiré escuchando todas ellas.
-
+          <p>Hip hop algo suave, más emocional, no es tanto mi estilo por lo general pero este álbum es sublime. Mis canciones favoritas son <strong>Who Dat Boy</strong>, <strong>I Ain't Got Time</strong> y <strong>Pothole</strong>, aunque muchas otras como <strong>Where This Flower Blooms</strong>, <strong>See You Again</strong>, <strong>November</strong> o <strong>Glitter</strong> también me han gustado mucho. En general es un álbum que me ha encantado y siento que no tiene una nota más alta simplemente porque no estoy familiarizada más con estas canciones, lo cual cambiará pronto ya que seguiré escuchando todas ellas.
+          </p>
           <hr>
           <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/2nkto6YNI4rUYTLqEwWJ3o?utm_source=generator" width="100%" height="200" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>      
         </div>
@@ -172,25 +309,26 @@
 
 
     <tr>
-      <td><a href="#ye">ye</a></td>
-      <td>Kanye West</td>
-      <td>24 min</td>
-      <td>2018/6/1</td>
-      <td>3</td>
-      <td>2022/9/27</td>
-      <td><img src="imagenesalbumes/ye.png" alt="" height="100px", width="100px"></td>
+      <td><p><a href="#ye">ye</a></td></p>
+      <td><p>Kanye West</td></p>
+      <td><p>24 min</td></p>
+      <td><p>2018/06/01</td></p>
+      <td><p>3</td></p>
+      <td><p>2022/09/27</td></p>
+      <td><p><img src="imagenesalbumes/ye.png" alt="" height="100px", width="100px"></td></p>
     </tr>
 
-
+  
     <div id="ye" class="overlay">
       <div class="popup">
-        <h2>ye</h2> <h6>Por Kanye West</h6>
+        <h2 class="nota">3/10</h2>
+        <h2 style="padding-right: 20%;">ye</h2> <h6>Por Kanye West</h6>
         <a class="close" href="#">&times;</a>
         <div class="content">
-          Este álbum es una mierda, me encanta. Tengo mucho que decir. Me ha costado mucho decidir su nota, he dudado entre un 8 y un 10, entre un 1 y un 4. Probablemente me arrepienta de la que le he puesto en algún momento. Suficiente, hablemos del álbum. Es radicalmente diferente a cualquier otro trabajo de Kanye en (casi) todos los sentidos. Es corto, no tiene los característicos samples alegres pegadizos, su forma de cantar y la temática también es diferente. Lo único en lo que me recuerda a sus otros álbumes es en que a veces me encuentro pensando "la peor parte de la canción es en la que Kanye abre la boca". A veces discursos de dos minutos, a veces versos incomprensibles, sin ritmo, desagradables. Y es por eso que me gusta, porque se nota que por una vez Kanye está expresando lo que quiere, aunque es algo que hace cada vez más, en este disco más que en cualquier otro plasma su mente y sus sentimientos antes que hacer algo comercial. Y comercial no es, para nada. Pero es magnífico. Los mensajes de Kanye, verso tras verso, canción tras canción, expresan emociones a veces crudas y brutales y a veces complejas y abstractas, y todas ellas resuenan conmigo. Me hacen pensar. Me reconfortan bastante.
+          <p>Este álbum es una mierda, me encanta. Tengo mucho que decir. Me ha costado mucho decidir su nota, he dudado entre un 8 y un 10, entre un 1 y un 4. Probablemente me arrepienta de la que le he puesto en algún momento. Suficiente, hablemos del álbum. Es radicalmente diferente a cualquier otro trabajo de Kanye en (casi) todos los sentidos. Es corto, no tiene los característicos samples alegres pegadizos, su forma de cantar y la temática también es diferente. Lo único en lo que me recuerda a sus otros álbumes es en que a veces me encuentro pensando "la peor parte de la canción es en la que Kanye abre la boca". A veces discursos de dos minutos, a veces versos incomprensibles, sin ritmo, desagradables. Y es por eso que me gusta, porque se nota que por una vez Kanye está expresando lo que quiere, aunque es algo que hace cada vez más, en este disco más que en cualquier otro plasma su mente y sus sentimientos antes que hacer algo comercial. Y comercial no es, para nada. Pero es magnífico. Los mensajes de Kanye, verso tras verso, canción tras canción, expresan emociones a veces crudas y brutales y a veces complejas y abstractas, y todas ellas resuenan conmigo. Me hacen pensar. Me reconfortan bastante.
           Sin embargo, musicalmente no es algo que vaya a escuchar de normal por muchos motivos. Aparte de que como he dicho las canciones no me parecen tan buenas en cuanto a sonido, probablemente modificarían mi estado emocional y no para mejor.
-          Aún así, en algunas canciones (Ghost Town, Violent Crimes) las partes en las que *no* canta Kanye son tan buenas que se ganan un sitio en mis playlists de escucha rutinaria. No quiero que se me malentienda. Me encanta el álbum. Es muy malo y muy bueno a la vez. Simplemente dudo dedicarle demasiadas escuchas. Si lo hago, será por malos motivos.
-
+          Aún así, en algunas canciones (<strong>Ghost Town</strong>, <strong>Violent Crimes</strong>) las partes en las que *no* canta Kanye son tan buenas que se ganan un sitio en mis playlists de escucha rutinaria. No quiero que se me malentienda. Me encanta el álbum. Es muy malo y muy bueno a la vez. Simplemente dudo dedicarle demasiadas escuchas. Si lo hago, será por malos motivos.
+        </p>
           <hr>
           <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/2Ek1q2haOnxVqhvVKqMvJe?utm_source=generator" width="100%" height="200" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
         </div>
@@ -227,7 +365,6 @@
 
 
 
-
   
 
 
@@ -237,7 +374,6 @@
 
 
 
-</head>
 <body>
     
 

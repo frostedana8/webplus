@@ -1,0 +1,29 @@
+body {
+    background: #660033;
+    color: 	#FFFFFF;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    
+}
+
+
+table, th, td {
+    background: #660033 url("Images/063.GIF");
+    border: 3px solid #006633;
+}
+
+a:link, a:visited {
+    background-color: #CC33CC;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color:#CC33FF;
+  }
+
+  ul {
+    list-style-image: url("Images/ezgif-2-adf7719fd3.gif");
+  }
