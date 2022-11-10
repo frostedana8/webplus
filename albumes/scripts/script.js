@@ -24,22 +24,56 @@ function sortTable(n) {
         y = rows[i + 1].getElementsByTagName("TD")[n];
         /*check if the two rows should switch place,
         based on the direction, asc or desc:*/
-        if (dir == "asc") {
-          if (n == 4){
-            
-          }
-          if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
-            //if so, mark as a switch and break the loop:
-            shouldSwitch= true;
-            break;
-          }
-        } else if (dir == "desc") {
-          if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
+        
+        //ESTO SI, ESTO HA SIDO CRAFTEADO ESPECÍFICAMENTE POR MÍ PARA PODER ORDENAR LA TABLA DE LAS NOTAS CON DECIMALES Y ME HA LLEVADO UN MONTÓN (aunque cuando lo miras es sencillo) ESTOY ORGULLOSA 
+
+        if(n != 4){
+
+          
+          if (dir == "asc") {
+            if (x.textContent.toLowerCase() > y.textContent.toLowerCase()) {
+              //if so, mark as a switch and break the loop:
+              shouldSwitch= true;
+              break;
+            }
+          } else if (dir == "desc") {
+            if (x.textContent.toLowerCase() < y.textContent.toLowerCase()) {
             //if so, mark as a switch and break the loop:
             shouldSwitch = true;
             break;
           }
         }
+        
+      } else {
+
+        if (dir == "asc") {
+          if (parseFloat(x.textContent) > (parseFloat(y.textContent))) {
+            //if so, mark as a switch and break the loop:
+            shouldSwitch= true;
+            break;
+          }
+        } else if (dir == "desc") {
+          if (parseFloat(x.textContent) < (parseFloat(y.textContent))) {
+          //if so, mark as a switch and break the loop:
+          shouldSwitch = true;
+          break;
+        }
+      }
+
+
+
+
+      }
+
+
+
+
+
+
+
+
+
+
       }
       if (shouldSwitch) {
         /*If a switch has been marked, make the switch
@@ -89,9 +123,8 @@ function sortTable(n) {
         /*check if the two rows should switch place,
         based on the direction, asc or desc:*/
         if (dir == "asc") {
-          if (n == 4){
-            
-          }
+
+
           if ((x.innerHTML.toLowerCase()) > (y.innerHTML.toLowerCase())) {
             //if so, mark as a switch and break the loop:
             shouldSwitch= true;
