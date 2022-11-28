@@ -39,43 +39,18 @@
 <h1>Archivo del hilo de álbumes</h1> 
 
 <h5><a href="https://twitter.com/turboputa/status/1557514741224017922" target=”_blank”>Ver hilo original en Twitter</a></h5>
-<p>Esta web es compleja de programar para mis capacidades y aún está en proceso. He de copiar más álbumes, mejorar el aspecto y arreglar el JavaScript que ordena la tabla. Ruego paciencia.</p>
+<p>Esta web es compleja de programar para mis capacidades y aún está en proceso. He de copiar más álbumes, mejorar el aspecto <strike>y arreglar el JavaScript que ordena la tabla</strike>. Ruego paciencia. <br>
+Ah, sí, Spotify chupa huevo y sus iframes no se pueden cambiar dinámicamente de altura, así que todas las integraciones de Spotify son grandes de más para intentar evitar que hayan tres scrolls a la vez en pantalla (de las malas opciones, la he considerado la menos mala).</p>
 <h5>Haz click en las cabeceras de las columnas para ordenarlas</h5>
 
 
 
 
   
-  <!--HTML culero que me he robado de la misma web india que el CSS y bueno he borrado las cosas que sobraban (soy muy buena programadora) estos botones son debug
-  
-  <a href="#popup1">Contenido</a>
-
-    <a href="#popup2">Popup 2</a>
-
-  <div id="popup1" class="overlay">
-    <div class="popup">
-      <h2>Titulo Álbum</h2>
-      <a class="close" href="#">&times;</a>
-      <div class="content">
-        Texto interno.
-      </div>
-    </div>
-  </div>
 
 
 
-  <div id="popup2" class="overlay">
-    <div class="popup">
-      <h2>Pruebas</h2>
-      <a class="close" href="#">&times;</a>
-      <div class="content">
-       Contenido pruebas
-      </div>
-    </div>
-  </div>
--->
-
-
+<main>
 
   
 <table id="myTable">
@@ -90,6 +65,9 @@
       <th><p>Imágen</p></th>
     </tr>
 
+
+<!--HTML culero que me he robado de la misma web india que el CSS y bueno he borrado las cosas que sobraban (soy muy buena programadora) estos botones son debug-->
+
 <!-- PLANTILLA
 
     <tr>
@@ -99,7 +77,7 @@
       <td><p>Salida</td></p>
       <td><p>Nota</td></p>
       <td><p>FechaReview</td></p>
-      <td><p><img src="imagenesalbumes/.png" alt="" height="100px", width="100px"></td></p>
+      <td><p><img src="imagenesalbumes/.png" height="100px", width="100px"></td></p>
     </tr>
 
     <div id="id" class="overlay">
@@ -111,7 +89,7 @@
           <p>Review review review
           </p>
           <hr>
-          IFRAME DE SPOTIFY o equivalente (height 200px)
+          IFRAME DE SPOTIFY o equivalente (height 1000px)
         </div>
       </div>
     </div>
@@ -131,14 +109,129 @@
 
 
 
+
+<tr>
+  <td><p><a href="#loveishell">Love Is Hell</a></td></p>
+  <td><p>Goa</td></p>
+  <td><p>22 min</td></p>
+  <td><p>2020/04/17</td></p>
+  <td><p>5</td></p>
+  <td><p>2022/11/28</td></p>
+  <td><p><img src="imagenesalbumes/loveishell.png" height="100px", width="100px"></td></p>
+</tr>
+
+<div id="loveishell" class="overlay">
+  <div class="popup">
+    <h2 class="nota">5/10</h2>
+    <h2 style="padding-right: 20%;">Love Is Hell</h2> <h6>Por Goa</h6>
+    <a class="close" href="#">&times;</a>
+    <div class="content">
+      <p>Rap pero con un uso imporante de elementos como guitarras eléctricas, crashes, rides y demás instrumentalización de rock que le da un sonido muy único. Me gusta bastante el resultado, y además el álbum tiene buen pacing. Las canciones que más me han gustado han sido <strong>El Precio Del Poder</strong>, <strong>Tsunami</strong> y <strong>Ryuk</strong>. La que menos <strong>Belzebú</strong>. Lo que le quita bastante quizás no es tanto de la música de Goa sino mío, y es que como he escuchado poco de este estilo la mayoría se me hace demasiado parecido y me cansa rápido. Probablemente es algo que cambie con el tiempo y con más escucha.
+      </p>
+      <hr>
+      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/0Mda5pfeHjcmQcEaW3b5hD?utm_source=generator" width="100%" height="1000" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </div>
+  </div>
+</div>
+
+
+
+
+<tr>
+  <td><p><a href="#palemachine">Pale Machine</a></td></p>
+  <td><p>Bo En</td></p>
+  <td><p>26 min</td></p>
+  <td><p>2013/09/06</td></p>
+  <td><p>6</td></p>
+  <td><p>2022/11/25</td></p>
+  <td><p><img src="imagenesalbumes/palemachine.png" height="100px", width="100px"></td></p>
+</tr>
+
+<div id="palemachine" class="overlay">
+  <div class="popup">
+    <h2 class="nota">6/10</h2>
+    <h2 style="padding-right: 20%;">Pale Machine</h2> <h6>Por Bo En</h6>
+    <a class="close" href="#">&times;</a>
+    <div class="content">
+      <p>No sé si llamarlo experimental, pero definitivamente tiene un sonido único. Principalmente hay una voz y un piano, junto con otra instrumentación ligera, onírica, casi fantasiosa. Pero por otro lado hay una percusión casi constante metálica, mecánica, robótica, además a veces la voz en inglés es sustituida por un vocaloid japonés. En conjunto se crea un sonido extraño y hostil y a la vez extrañamente confortante. Como soñar con maquinara. Como las fantasías de un robot. Dejando eso de lado, no es en su mayoría música que escucharía bajo ninguna circunstancia, aunque el álbum sea tremendo. Las canciones que más me han gustado han sido <strong>Friend</strong>, <strong>Be Okay</strong>, <strong>Pale Machine</strong> y <strong>My Time</strong>. Como dato adicional, <strong>My Time</strong> es parte de la soundtrack oficial de Omori.
+      </p>
+      <hr>
+      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/1a2UnYDnfK25QJKfgHNHnu?utm_source=generator" width="100%" height="1000" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </div>
+  </div>
+</div>
+
+
+
+
+<tr>
+  <td><p><a href="#draininglovestory">Draining Love Story</a></td></p>
+  <td><p>Sewerslvt</td></p>
+  <td><p>52 min</td></p>
+  <td><p>2020/01/25</td></p>
+  <td><p>5,5</td></p>
+  <td><p>2022/11/18</td></p>
+  <td><p><img src="imagenesalbumes/draininglovestory.png" height="100px", width="100px"></td></p>
+</tr>
+
+<div id="draininglovestory" class="overlay">
+  <div class="popup">
+    <h2 class="nota">5,5/10</h2>
+    <h2 style="padding-right: 20%;">Draining Love Story</h2> <h6>Por Sewerslvt</h6>
+    <a class="close" href="#">&times;</a>
+    <div class="content">
+      <p>Primero, aunque no creo que haga falta que lo diga, no apoyo las acciones de June aunque me guste su música. Segundo... no me gusta toda su música. Este álbum tiene varias tracks demasiado largas y repetitivas incluso para ser jungle o drum and bass, y las que son más cortas son interludios ambientales o como la intro, ruido. Y el álbum en conjunto está muy bien, es toda una experiencia, pero a mí me ha cansado bastante. Las dos canciones principales, <strong>Lexapro Delirium</strong> y <strong>Mr. Kill Myself</strong> (ambas de 7 minutos) son demasiado y es una pena porque ambas suenan genial. Pensaba que era problema de la longitud pero las dos últimas tracks son de 8 minutos y no se hacen tan pesadas, porque no son tan repetitivas y tienen más variedad. Esto poco a poco hace que el álbum se haga largo, te cansa, se podría decir que te drena (soy muy graciosa). <strong>Yandere Complex</strong> me parece la mejor canción del álbum, también me han gustado mucho <strong>Down the Drain</strong>, <strong>Swinging in his cell</strong> y <strong>Lexapro Delirium</strong>. <strong>Ecifircas</strong> está bien pero el sample es muy intrusivo, y aunque me molesta bastante el sampleo de una chica confesando sus autolesiones en <strong>This Fleeting Feeling</strong> y más aún sabiendo el historial de Sewerslvt... la verdad, admito que pega bien con el álbum en general.
+      </p>
+      <hr>
+      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/3yQqw6ZJDHey6HZCpsrFTb?utm_source=generator" width="100%" height="1000" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<tr>
+  <td><p><a href="#uglyisbeautiful">Ugly is Beautiful</a></td></p>
+  <td><p>Oliver Tree</td></p>
+  <td><p>37 min</td></p>
+  <td><p>2020/07/17</td></p>
+  <td><p>4</td></p>
+  <td><p>2022/11/03</td></p>
+  <td><p><img src="imagenesalbumes/uglyisbeautiful.png" height="100px", width="100px"></td></p>
+</tr>
+
+<div id="uglyisbeautiful" class="overlay">
+  <div class="popup">
+    <h2 class="nota">4/10</h2>
+    <h2 style="padding-right: 20%;">Ugly is Beautiful</h2> <h6>Por Oliver Tree</h6>
+    <a class="close" href="#">&times;</a>
+    <div class="content">
+      <p>
+        Este álbum es una recopilación de canciones viejas con algunas añadidas. Osea, de las 14 canciones del álbum, 6 ya habían salido antes, y no en plan singles promocionales. Es más un recopilatorio que otra cosa. Además todas esas canciones ya las tenía muy oídas y quemadas de antes así que aunque son bastante buenas no me entusiasma oírlas más. A esto se le suma que aunque en vacío me gusta la música de Oliver, como producto la odio porque es puro marketing sin alma para sacar dinero, todo suena super comercial. Las canciones nuevas para el álbum que más me han gustado han sido <stong>1993</stong>,  <stong>Jerk</stong> y<strong>Bury Me Alive</strong>, de las antiguas <strong>Alien Boy</strong>, <strong>Introspective</strong> y <strong>Hurt</strong>. Creo que <strong>I'm Gone</strong> es la que menos me ha gustado, junto con <strong>Me, Myself and I</strong>. De nuevo, soy consciente de que toda esta música es super comercial pero aún así disfruto de ella. Vaya, <strong>Introspective</strong> es bombo caja platillos guitarra y voz (ni si quiera se entiende que dice), y aún así suena genial, no todo tiene que ser complejo siempre. Muy extraña la situación con <strong>Jerk</strong>, donde la rehizo con Robin Schulz hace poco bajo el nombre de "Miss You", que es la misma canción pero acelerada, que a su vez tiene una versión aún más acelerada (Miss You - Sped Up Version)... no entiendo nada. Como sea, las canciones no son malas, solo genéricas y lo poco que las pudiera salvar es contrarrestado por haberlas escuchado cientos de veces en este punto y tenerlas más que quemadas. Al menos para las canciones originales del álbum aprendió a poner bajo en la música.
+      </p>
+      <hr>
+      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/1HmWQo43Gt8BR2dylfv3o4?utm_source=generator" width="100%" height="1000px" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
 <tr>
   <td><p><a href="#mybeautifuldarktwistedfantasy">My Beautiful Dark Twisted Fantasy</a></td></p>
   <td><p>Kanye West</td></p>
   <td><p>68 min</td></p>
-  <td><p>2010/11/22</td></p>
+  <td><p>2010/03/22</td></p>
   <td><p>4</td></p>
   <td><p>2022/11/03</td></p>
-  <td><p><img src="imagenesalbumes/mybeautifuldarktwistedfantasy.png" alt="" height="100px", width="100px"></td></p>
+  <td><p><img src="imagenesalbumes/mybeautifuldarktwistedfantasy.png" height="100px", width="100px"></td></p>
 </tr>
 
 <div id="mybeautifuldarktwistedfantasy" class="overlay">
@@ -152,7 +245,7 @@
 
       </p>
       <hr>
-      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/20r762YmB5HeofjMCiPMLv?utm_source=generator" width="100%" height="200" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/20r762YmB5HeofjMCiPMLv?utm_source=generator" width="100%" height="1000" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
     </div>
   </div>
 </div>
@@ -167,14 +260,14 @@
   <td><p>Sub Urban</td></p>
   <td><p>19 min</td></p>
   <td><p>2020/03/13</td></p>
-  <td><p>9.5</td></p>
+  <td><p>9,5</td></p>
   <td><p>2022/11/03</td></p>
-  <td><p><img src="imagenesalbumes/thrill seeker.png" alt="" height="100px", width="100px"></td></p>
+  <td><p><img src="imagenesalbumes/thrill seeker.png" height="100px", width="100px"></td></p>
 </tr>
 
 <div id="thrillseeker" class="overlay">
   <div class="popup">
-    <h2 class="nota">9.5/10</h2>
+    <h2 class="nota">9,5/10</h2>
     <h2 style="padding-right: 20%;">Thrill Seeker</h2> <h6>Por Sub Urban</h6>
     <a class="close" href="#">&times;</a>
     <div class="content">
@@ -182,41 +275,12 @@
       Un EP muy bueno, normalmente la estética cirquense no suele ser lo mío pero esta es una gran excepción. Es el primer álbum que recuerdo escuchar y menos mal que lo hice. <strong>Freak</strong> es mi canción favorita de este álbum y una de mis canciones favoritas jamás. <strong>KMS</strong> e <strong>Isolate</strong> son dos canciones con las que ocasionalmente identificarme y sentirme a gusto en la miseria. <strong>Spring Fever</strong> y <strong>Cirque</strong> hablan sobre amor, la primera de forma melancólica y la segunda de una forma algo más animada. <strong>Cliché</strong> habla sobre... ¿una pareja estereotípica? Eso es todo, creo. De <strong>when the flies fell</strong> no entiendo nada ni me parece una buena canción que escuchar pero va muy bien para cerrar el EP. Y eso es todo, es cortito pero muy sólido, muy bueno, casi perfecto, mi única queja es que quizás me cansa un poco la voz de Sub Urban.
       </p>
       <hr>
-      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/0PTvzABaWDvafuJ8MZplha?utm_source=generator" width="100%" height="200" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/0PTvzABaWDvafuJ8MZplha?utm_source=generator" width="100%" height="1000" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
     </div>
   </div>
 </div>
 
 
-
-
-
-
-
-
-<tr>
-  <td><p><a href="#uglyisbeautiful">Ugly is Beautiful</a></td></p>
-  <td><p>Oliver Tree</td></p>
-  <td><p>37 min</td></p>
-  <td><p>2020/07/17</td></p>
-  <td><p>4</td></p>
-  <td><p>2022/11/03</td></p>
-  <td><p><img src="imagenesalbumes/uglyisbeautiful.png" alt="" height="100px", width="100px"></td></p>
-</tr>
-
-<div id="uglyisbeautiful" class="overlay">
-  <div class="popup">
-    <h2 class="nota">4/10</h2>
-    <h2 style="padding-right: 20%;">Ugly is Beautiful</h2> <h6>Por Oliver Tree</h6>
-    <a class="close" href="#">&times;</a>
-    <div class="content">
-      <p>
-        Este álbum es una recopilación de canciones viejas con algunas añadidas. Osea, de las 14 canciones del álbum, 6 ya habían salido antes, y no en plan singles promocionales. Es más un recopilatorio que otra cosa. Además todas esas canciones ya las tenía muy oídas y quemadas de antes así que aunque son bastante buenas no me entusiasma oírlas más. A esto se le suma que aunque en vacío me gusta la música de Oliver, como producto la odio porque es puro marketing sin alma para sacar dinero, todo suena super comercial. Las canciones nuevas para el álbum que más me han gustado han sido <stong>1993</stong>,  <stong>Jerk</stong> y<strong>Bury Me Alive</strong>, de las antiguas <strong>Alien Boy</strong>, <strong>Introspective</strong> y <strong>Hurt</strong>. Creo que <strong>I'm Gone</strong> es la que menos me ha gustado, junto con <strong>Me, Myself and I</strong>. De nuevo, soy consciente de que toda esta música es super comercial pero aún así disfruto de ella. Vaya, <strong>Introspective</strong> es bombo caja platillos guitarra y voz (ni si quiera se entiende que dice), y aún así suena genial, no todo tiene que ser complejo siempre. Muy extraña la situación con <strong>Jerk</strong>, donde la rehizo con Robin Schulz hace poco bajo el nombre de "Miss You", que es la misma canción pero acelerada, que a su vez tiene una versión aún más acelerada (Miss You - Sped Up Version)... no entiendo nada. Como sea, las canciones no son malas, solo genéricas y lo poco que las pudiera salvar es contrarrestado por haberlas escuchado cientos de veces en este punto y tenerlas más que quemadas. Al menos para las canciones originales del álbum aprendió a poner bajo en la música.
-      </p>
-      <hr>
-      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/1HmWQo43Gt8BR2dylfv3o4?utm_source=generator" width="100%" height="200px" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>    </div>
-  </div>
-</div>
 
 
 
@@ -230,7 +294,7 @@
       <td><p>2019/04/26</td></p>
       <td><p>7</td></p>
       <td><p>2022/10/26</td></p>
-      <td><p><img src="imagenesalbumes/bumpthis.png" alt="" height="100px", width="100px"></td></p>
+      <td><p><img src="imagenesalbumes/bumpthis.png" height="100px", width="100px"></td></p>
     </tr>
 
     <div id="bumpthis" class="overlay">
@@ -242,7 +306,7 @@
           <p>Un pequeño EP de 15 minutos y 6 canciones por un youtuber, ahora ex-viner, con la mayoría de canciones siendo parodias de las tendencias de 2019, usando expresiones como "yass", una canción hablando sobre ser un youtuber al que no le importa nada más que la fama y el dinero aunque sea a costa de ser una persona horrible, o incluso una canción entera llamada <strong>The Tea</strong>, la cual por cierto creo que es la que menos me gusta junto a <strong>Bad Boy</strong>. Mi favorita, por otro lado, es sin duda <strong>Train</strong>, que habla sobre como ya no se flexea con coches o mansiones, sino con trenes y submarinos (¿y delfines?). Es un EP cortito y cómico, muy recomendado, así como todo el contenido en YouTube de Danny Gonzalez.
           </p>
           <hr>
-          <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/7eLPkvLJA7expfH0E330Fg?utm_source=generator" width="100%" height="200" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/7eLPkvLJA7expfH0E330Fg?utm_source=generator" width="100%" height="1000" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
         </div>
       </div>
     </div>
@@ -255,52 +319,26 @@
       <td><p>Tyler, The Creator</td></p>
       <td><p>40 min</td></p>
       <td><p>2019/05/17</td></p>
-      <td><p>8.5</td></p>
+      <td><p>8,5</td></p>
       <td><p>2022/09/27</td></p>
-      <td><p><img src="imagenesalbumes/IGOR.png" alt="" height="100px", width="100px"></td></p>
+      <td><p><img src="imagenesalbumes/IGOR.png" height="100px", width="100px"></td></p>
     </tr>
 
     <div id="IGOR" class="overlay">
       <div class="popup">
-        <h2 class="nota">8.5/10</h2>
+        <h2 class="nota">8,5/10</h2>
         <h2 style="padding-right: 20%;">IGOR</h2> <h6>Por Tyler, The Creator</h6>
         <a class="close" href="#">&times;</a>
         <div class="content">
         <p>Fue por este álbum por lo que empecé a escuchar a Tyler. Mis canciones favoritas syuas siempre fueron <strong>NEW MAGIC WAND</strong> y <strong>WHAT'S GOOD</strong>, <strong>I THINK</strong> tambien me gusta bastante. <strong>PUPPET</strong> y <strong>I DONT LOVE YOU ANYMORE</strong> no encajan del todo conmigo, al igual que la primera parte de <strong>GONE GONE / THANK YOU</strong>. Aún así, las disfruto como parte del álbum. Para quien no lo sepa ya, IGOR es un álbum conceptual que cuenta una historia a lo largo de este. Me gusta mucho, me identifico con varias emociones expresadas en este. Muy recomendado.
         </p>
          <hr>
-         <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/5zi7WsKlIiUXv09tbGLKsE?utm_source=generator" width="100%" height="200" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+         <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/5zi7WsKlIiUXv09tbGLKsE?utm_source=generator" width="100%" height="1000" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
         </div>
       </div>
     </div>
 
 
-
-
-    <tr>
-      <td><p><a href="#flowerboy">Flower Boy</a></td></p>
-      <td><p>Tyler, The Creator</td></p>
-      <td><p>46 min</td></p>
-      <td><p>2017/07/21</td></p>
-      <td><p>8</td></p>
-      <td><p>2022/09/27</td></p>
-      <td><p><img src="imagenesalbumes/flowerboy.png" alt="" height="100px", width="100px"></td></p>
-    </tr>
-
-
-    <div id="flowerboy" class="overlay">
-      <div class="popup">
-        <h2 class="nota">8/10</h2>
-        <h2 style="padding-right: 20%;">Flower Boy</h2> <h6>Por Tyler, The Creator</h6>
-        <a class="close" href="#">&times;</a>
-        <div class="content">
-          <p>Hip hop algo suave, más emocional, no es tanto mi estilo por lo general pero este álbum es sublime. Mis canciones favoritas son <strong>Who Dat Boy</strong>, <strong>I Ain't Got Time</strong> y <strong>Pothole</strong>, aunque muchas otras como <strong>Where This Flower Blooms</strong>, <strong>See You Again</strong>, <strong>November</strong> o <strong>Glitter</strong> también me han gustado mucho. En general es un álbum que me ha encantado y siento que no tiene una nota más alta simplemente porque no estoy familiarizada más con estas canciones, lo cual cambiará pronto ya que seguiré escuchando todas ellas.
-          </p>
-          <hr>
-          <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/2nkto6YNI4rUYTLqEwWJ3o?utm_source=generator" width="100%" height="200" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>      
-        </div>
-      </div>
-    </div>
 
 
 
@@ -315,7 +353,7 @@
       <td><p>2018/06/01</td></p>
       <td><p>3</td></p>
       <td><p>2022/09/27</td></p>
-      <td><p><img src="imagenesalbumes/ye.png" alt="" height="100px", width="100px"></td></p>
+      <td><p><img src="imagenesalbumes/ye.png" height="100px", width="100px"></td></p>
     </tr>
 
   
@@ -330,7 +368,34 @@
           Aún así, en algunas canciones (<strong>Ghost Town</strong>, <strong>Violent Crimes</strong>) las partes en las que *no* canta Kanye son tan buenas que se ganan un sitio en mis playlists de escucha rutinaria. No quiero que se me malentienda. Me encanta el álbum. Es muy malo y muy bueno a la vez. Simplemente dudo dedicarle demasiadas escuchas. Si lo hago, será por malos motivos.
         </p>
           <hr>
-          <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/2Ek1q2haOnxVqhvVKqMvJe?utm_source=generator" width="100%" height="200" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/2Ek1q2haOnxVqhvVKqMvJe?utm_source=generator" width="100%" height="1000" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+      </div>
+    </div>
+
+
+
+    <tr>
+      <td><p><a href="#flowerboy">Flower Boy</a></td></p>
+      <td><p>Tyler, The Creator</td></p>
+      <td><p>46 min</td></p>
+      <td><p>2017/08/11</td></p>
+      <td><p>8</td></p>
+      <td><p>2022/09/27</td></p>
+      <td><p><img src="imagenesalbumes/flowerboy.png" height="100px", width="100px"></td></p>
+    </tr>
+
+
+    <div id="flowerboy" class="overlay">
+      <div class="popup">
+        <h2 class="nota">8/10</h2>
+        <h2 style="padding-right: 20%;">Flower Boy</h2> <h6>Por Tyler, The Creator</h6>
+        <a class="close" href="#">&times;</a>
+        <div class="content">
+          <p>Hip hop algo suave, más emocional, no es tanto mi estilo por lo general pero este álbum es sublime. Mis canciones favoritas son <strong>Who Dat Boy</strong>, <strong>I Ain't Got Time</strong> y <strong>Pothole</strong>, aunque muchas otras como <strong>Where This Flower Blooms</strong>, <strong>See You Again</strong>, <strong>November</strong> o <strong>Glitter</strong> también me han gustado mucho. En general es un álbum que me ha encantado y siento que no tiene una nota más alta simplemente porque no estoy familiarizada más con estas canciones, lo cual cambiará pronto ya que seguiré escuchando todas ellas.
+          </p>
+          <hr>
+          <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/2nkto6YNI4rUYTLqEwWJ3o?utm_source=generator" width="100%" height="1000" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>      
         </div>
       </div>
     </div>
@@ -364,7 +429,6 @@
 
 
 
-
   
 
 
@@ -373,6 +437,242 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+      <td><p><a href="#goodandevil">Good & Evil</a></td></p>
+      <td><p>Tally Hall</td></p>
+      <td><p>45 min</td></p>
+      <td><p>2011/06/21</td></p>
+      <td><p>3</td></p>
+      <td><p>2022/02/21</td></p>
+      <td><p><img src="imagenesalbumes/goodandevil.png" height="100px", width="100px"></td></p>
+    </tr>
+
+    <div id="goodandevil" class="overlay">
+      <div class="popup">
+        <h2 class="nota">3/10</h2>
+        <h2 style="padding-right: 20%;">Good & Evil</h2> <h6>Por Tally Hall</h6>
+        <a class="close" href="#">&times;</a>
+        <div class="content">
+          <p> Es bueno, pero realmente le pasa igual que a O My Heart, un par de canciones que me encantan pero no justifican escuchar el album entero. Que está muy bien, pero se me hace muy lento. Musica de fondo para estudiar, no de escuchar, no se si me explico. <strong>Cannibal</strong>, <strong>You & Me</strong>, <strong>Never Meant to Know</strong>, <strong>&</strong> y <strong>Turn the Lights Off</strong> han sido mis favoritas.
+          </p>
+          <hr>
+          <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/2Vq0Y8wgiZRYtZ1mQ7zOMG?utm_source=generator" width="100%" height="1000" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+      </div>
+    </div>
+
+
+    <tr>
+      <td><p><a href="#omyheart">O My Heart</a></td></p>
+      <td><p>Mother Mother</td></p>
+      <td><p>47 min</td></p>
+      <td><p>2008/09/23</td></p>
+      <td><p>4,5</td></p>
+      <td><p>2022/02/17</td></p>
+      <td><p><img src="imagenesalbumes/omyheart.png" height="100px", width="100px"></td></p>
+    </tr>
+
+    <div id="omyheart" class="overlay">
+      <div class="popup">
+        <h2 class="nota">4,5/10</h2>
+        <h2 style="padding-right: 20%;">O My Heart</h2> <h6>Por Mother Mother</h6>
+        <a class="close" href="#">&times;</a>
+        <div class="content">
+          <p>Es muy bueno. Muy bueno. No me malentendais. Pero muchas canciones se me hacen muy lentas, siguen siendo buenas, pero no me apasiona escucharlas. Las pocas que me gustan son las que tienen más ritmo, las más mainstream: <strong>Arms Tonite</strong> y <strong>Hayloft</strong>, pero también <strong>Body</strong>.
+            
+          </p>
+          <hr>
+          <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/2bC9K02AaFfus83qNl3aOM?utm_source=generator" width="100%" height="1000" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <tr>
+      <td><p><a href="#holi<3">Holi &lt;3</a></td></p>
+      <td><p>Axolotes Mexicanos</td></p>
+      <td><p>19 min</td></p>
+      <td><p>2015/02/16</td></p>
+      <td><p>8</td></p>
+      <td><p>2022/02/16</td></p>
+      <td><p><img src="imagenesalbumes/holi3.png" height="100px", width="100px"></td></p>
+    </tr>
+
+    <div id="holi<3" class="overlay">
+      <div class="popup">
+        <h2 class="nota">8/10</h2>
+        <h2 style="padding-right: 20%;">Holi &lt;3</h2> <h6>Por Axolotes Mexicanos</h6>
+        <a class="close" href="#">&times;</a>
+        <div class="content">
+          <p>Corto, sólido. Nada que decir del pacing porque son literalmente 8 canciones. Mucho valor sentimental para mí, aunque después de tanto tiempo y asociarlo a otras personas ya puedo escucharlo sin llorar (no puedo decir lo mismo de Salu2). Algo que probablemente nunca podría haber vuelto a escuchar si no hubiera sido porque recientemente me lo ha recomendado un puñado de gente, y eso que me encantaba y de hecho diría que en contra de mi voluntad influenciaron mi música y probablemente lo siguen haciendo. Las que más me han gustado han sido <strong>El Basurero</strong>, <strong>Te Miro Mientras Duermes</strong>, <strong>Me Da igual</strong> y <strong>Interestelar</strong>.
+            
+          </p>
+          <hr>
+          <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/2bC9K02AaFfus83qNl3aOM?utm_source=generator" width="100%" height="1000" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+      </div>
+    </div>
+
+
+    
+    <tr>
+      <td><p><a href="#euringer">EURINGER</a></td></p>
+      <td><p>EURINGER</td></p>
+      <td><p>56 min</td></p>
+      <td><p>2018/10/19</td></p>
+      <td><p>2</td></p>
+      <td><p>2022/02/15</td></p>
+      <td><p><img src="imagenesalbumes/euringer.png" height="100px", width="100px"></td></p>
+    </tr>
+
+    <div id="euringer" class="overlay">
+      <div class="popup">
+        <h2 class="nota">2/10</h2>
+        <h2 style="padding-right: 20%;">EURINGER</h2> <h6>Por EURINGER</h6>
+        <a class="close" href="#">&times;</a>
+        <div class="content">
+          <p>Esta nota me sorprende hasta a mi porque amo, amo, AMO Mindless Self Indulgence, pero claro esto no es MSI sino solo el cantante, Jimmy Urine, haciendo cosas por su cuenta. Y son bastante malillas en mi opinión. Primero, comparado con MSI pierde mucha energía, las canciones no solo se sienten como pop rock genérico sino que además me parecen bastante meh, como si Jimmy no hubiera dado una sola clase de teoría musical en su vida, las melodías no tienen armonías y las canciones tienen mal ritmo. Tras una hora de escuchar y 16 tracks, 15 quitando intro, realmente solo me siento como si hubiera escuchado 4 o 5 canciones. Un par de ellas me han encantado claro, <strong>What A Fool Believes</strong> y <strong>The Medicine Does Not Control Me</strong> me parece que están bastante bien. <strong>Problematic</strong> y <strong>Sailor In A Lifeboat</strong> también pero por algún motivo tienen melodías y ritmos muy raros de nuevo, y no en algún sentido experimental y artístico, sino sencillamente disonante y torpe. La outro lo resume bastante bien: "¿Dos años y medio para esta mierda?" 
+            
+          </p>
+          <hr>
+          <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/3errLr3puRVdp8Rgh8g3lf?utm_source=generator" width="100%" height="1000" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+      </div>
+    </div>
+
+
+    <tr>
+      <td><p><a href="#sensational">Sensational</a></td></p>
+      <td><p>Yung Gravy</td></p>
+      <td><p>32 min</td></p>
+      <td><p>2019/05/31</td></p>
+      <td><p>10</td></p>
+      <td><p>2022/02/14</td></p>
+      <td><p><img src="imagenesalbumes/sensational.png" height="100px", width="100px"></td></p>
+    </tr>
+
+    <div id="sensational" class="overlay">
+      <div class="popup">
+        <h2 class="nota">10/10</h2>
+        <h2 style="padding-right: 20%;">Sensational</h2> <h6>Por Yung Gravy</h6>
+        <a class="close" href="#">&times;</a>
+        <div class="content">
+          <p>Simplemente la experiencia musical definitiva en mi opinión. Banger after banger, de principio a final. Buen pacing, buenos temas, poco más que decir. Me encanta. Si tuviera que encontrarle un punto débil sería <strong>Alley Oop</strong> y quizás <strong>Charlene</strong>. Esto junto a que consideraba mejor cambiar el orden de <strong>Pizzazz</strong> y <strong>One Thot Two Thot</strong> me iban a llevar a ponerle un 9 o un 9.5, pero al final me di cuenta de que es intencional. La canción tiene su primer pico en <strong>The Boys Are Back In Town</strong> (mi favorita) que te tiene absolutamente noddeando, saltando, bailando, después te da un pequeño descanso, hasta que <strong>E.T.</strong> vuelve a ser un segundo pico de intensidad. Después, cuando estás exhausto, viene <strong>Richard Simmons</strong>, una canción sentimental que para el final te deja llorando. Entonces viene <strong>Pizzazz</strong>, un abrazo reconfortante. Por último, cuando has recuperado el ánimo, viene <strong>One Thot Two Thot</strong>. Al principio me pareció una mala despedida pero al final me di cuenta, es así como debe ser, porque Yung Gravy no se despidiría con un abrazo sino con un fistbump. Podría hablar por horas y horas sobre por que me parece genial, sobre cada pequeño detalle en cada canción que me parece milimétricamente calculado para ser sublime, pero no es el punto del hilo y ya bastante he soltado. Me gusta Yung Gravy, llamadme cringe si queréis. 
+            
+          </p>
+          <hr>
+          <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/6xd9phTkcEIsi1JWhbxZM3?utm_source=generator" width="100%" height="1000" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>        </div>
+      </div>
+    </div>
+
+
+    <tr>
+      <td><p><a href="#jetsetradio">Jet Set Radio SEGA Original Tracks</a></td></p>
+      <td><p>Hideki Naganuma, Richard Jacques, Toronto</td></p>
+      <td><p>33 min</td></p>
+      <td><p>2012/10/03</td></p>
+      <td><p>6</td></p>
+      <td><p>2022/02/11</td></p>
+      <td><p><img src="imagenesalbumes/jetsetradio.png" height="100px", width="100px"></td></p>
+    </tr>
+
+    <div id="jetsetradio" class="overlay">
+      <div class="popup">
+        <h2 class="nota">6/10</h2>
+        <h2 style="padding-right: 20%;">Jet Set Radio SEGA Original Tracks</h2> <h6>Por Hideki Naganuma, Richard Jacques, Toronto</h6> <h6>Sugerido por <a href="https://twitter.com/mascacojones420" title="Twitter de Alma">Alma</a></h6>
+        <a class="close" href="#">&times;</a>
+        <div class="content">
+          <p>Dificil calificarlo como album y no como soundtrack de un juego, principalmente porque precisamente por esto tiene muy mal pacing. Las canciones son tremendas no me malentendáis, pero de nuevo, muy mal pacing que podria facilmente arreglarse. En mi opinión, <strong>Everybody Jump Around</strong> o <strong>That's Enough</strong> deberían ser las primeras tracks. También se nota mucho la canción de Toronto, que aunque buena, no pega con el resto del álbum, está fuera de lugar. A parte de eso, no mucho que decir, las tracks son tremendas. <strong>Everybody Jump Around</strong> y <strong>Sneakman</strong> diría que son mis favoritas, <strong>Rock It On</strong> la que menos me ha gustado. Graciosas las referencias sexuales (probablemente accidentales por mala traducción) escondidas, admitiré. 
+            
+          </p>
+          <hr>
+          <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/3oVKqk9TahxvHpFIUlAEuJ?utm_source=generator" width="100%" height="1000" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>        </div>
+      </div>
+    </div>
+
+    <tr>
+      <td><p><a href="#infesttheratsnest">Inest The Rats' Nest</a></td></p>
+      <td><p>King Gizzard & the Lizard Wizard</td></p>
+      <td><p>35 min</td></p>
+      <td><p>2019/08/16</td></p>
+      <td><p>8</td></p>
+      <td><p>2022/02/10</td></p>
+      <td><p><img src="imagenesalbumes/infesttheratsnest.png" alt="Infest The Rats' Nest" height="100px", width="100px"></td></p>
+    </tr>
+
+    <div id="infesttheratsnest" class="overlay">
+      <div class="popup">
+        <h2 class="nota">8/10</h2>
+        <h2 style="padding-right: 20%;">Infest The Rats' Nest</h2> <h6>Por King Gizzard & the Lizard Wizard</h6>
+        <a class="close" href="#">&times;</a>
+        <div class="content">
+          <p>En resúmen, me ha gustado mucho y no tengo ninguna pega, pero no tengo mucha experiencia con el metal así que de momento se me hace todo un poco igual. Aún así me ha encantado y lo dicho no veo nada negativo por más que busque. <strong>Organ Farmer</strong> ya me gustaba de antes, se le unen <strong>Perihelion</strong>, <strong>Venusian 2</strong> y <strong>Self-Inmolate</strong>. Es un álbum experimental que relata miseria en la Tierra e intentos de escapar de ella viajando a Venus, lo cual solo causa aún más sufrimiento. Es crudo y burtal, pero tremendo y habla de cosas del espacio. No me extrañaría revisitarlo en algún tiempo y que sea un 10.
+            
+          </p>
+          <hr>
+          <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/1B12ldQwBhDeS0gIcUg0ux?utm_source=generator" width="100%" height="1000" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>        </div>
+      </div>
+    </div>
+
+
+    <tr>
+      <td><p><a href="#plasticbeach">Plastic Beach</a></td></p>
+      <td><p>Gorillaz</td></p>
+      <td><p>57 min</td></p>
+      <td><p>2010/03/03</td></p>
+      <td><p>9,5</td></p>
+      <td><p>2022/02/09</td></p>
+      <td><p><img src="imagenesalbumes/plasticbeach.png" alt="Plastic Beach" height="100px", width="100px"></td></p>
+    </tr>
+
+    <div id="plasticbeach" class="overlay">
+      <div class="popup">
+        <h2 class="nota">9,5/10</h2>
+        <h2 style="padding-right: 20%;">Plastic Beach</h2> <h6>Por Gorillaz</h6>
+        <a class="close" href="#">&times;</a>
+        <div class="content">
+          <p>Estaba dudando y de hecho al principio pensé que ni si quiera pasaría del 4 pero segun fuí escuchando fue subiendo la nota. <strong>Orchestral Intro</strong>, <strong>Welcome To The World Of The Plastic Beach</strong> y <strong>White Flag</strong> me parecen un principio demasiado flojo, esto junto con <strong>Glitter Freeze</strong> y <strong>Cloud of Unknowing</strong> impiden que le ponga un 10. Son tracks demasiado lentas y en mi opinión sin ritmo del que enganchar, al menos las colocaron bien tho. Quizás sea injusto porque la mayoría de canciones ya eran de mis favoritas pero ya dije esto no es ni de lejos imparcial. <strong>Some Kind Of Nature</strong> no la había escuchado nunca antes y me ha parecido bastante buena y pegadiza. Diría que <strong>Rhinestone Eyes</strong>, <strong>Empire Ants</strong> y <strong>Plastic Beach</strong> son mis favoritas.
+            
+          </p>
+          <hr>
+          <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/2dIGnmEIy1WZIcZCFSj6i8?utm_source=generator" width="100%" height="1000" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" ></iframe>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+    </main>
 
 <body>
     

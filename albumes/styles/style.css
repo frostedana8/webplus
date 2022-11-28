@@ -8,24 +8,29 @@
   h5{ color:aliceblue}
    h6{ color:aliceblue}
   p{ color: aliceblue}
-          
+   p       
           
    a:link {color:rgb(135, 227, 250)}
    a:visited {color:rgb(240, 189, 245)}
 
-body{background-color:#525252;}
+body{
+  background-color:#525252;
+
+}
 
   
   
 table, th, td{
-    border: 2px solid rgb(255, 255, 255);
+    border: 3px solid rgb(255, 255, 255);
     padding-left: 2px;
-    padding-right: 2px
-
-  }
+    padding-right: 2px;
+        
+}
 
 .nota{
-  position:absolute; top: 20px; right: 40px;
+  position: absolute; 
+  top: 20px; 
+  right: 40px;
 
 }
 
@@ -64,6 +69,19 @@ table, th, td{
 
 }
   
+
+
+/* quitar scrollbar */
+.popup::-webkit-scrollbar {
+  display: none;
+}
+.popup {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+
+
   .popup h2 {
     margin-top: 0;
     color: rgb(123, 218, 173);
@@ -94,6 +112,13 @@ table, th, td{
       width: 70%;
     }
   }
+
+div[class="content"] p {
+  font-size: large;
+}
   
   
   
+
+
+
