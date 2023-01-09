@@ -27,7 +27,7 @@ function sortTable(n) {
         
         //ESTO SI, ESTO HA SIDO CRAFTEADO ESPECÍFICAMENTE POR MÍ PARA PODER ORDENAR LA TABLA DE LAS NOTAS CON DECIMALES Y ME HA LLEVADO UN MONTÓN (aunque cuando lo miras es sencillo) ESTOY ORGULLOSA 
 
-        if(n != 4){
+        if(n != 5){
 
           
           if (dir == "asc") {
