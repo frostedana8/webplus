@@ -1,69 +1,5 @@
-
-//Script culero para ordenar la tabla copiado brutalmente del W3School-->
-
-function sortTable(n) {
-    var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
-    table = document.getElementById("myTable");
-    switching = true;
-    //Set the sorting direction to ascending:
-    dir = "asc"; 
-    /*Make a loop that will continue until
-    no switching has been done:*/
-    while (switching) {
-      //start by saying: no switching is done:
-      switching = false;
-      rows = table.rows;
-      /*Loop through all table rows (except the
-      first, which contains table headers):*/
-      for (i = 1; i < (rows.length - 1); i++) {
-        //start by saying there should be no switching:
-        shouldSwitch = false;
-        /*Get the two elements you want to compare,
-        one from current row and one from the next:*/
-        x = rows[i].getElementsByTagName("TD")[n];
-        y = rows[i + 1].getElementsByTagName("TD")[n];
-        /*check if the two rows should switch place,
-        based on the direction, asc or desc:*/
-        
-        //ESTO SI, ESTO HA SIDO CRAFTEADO ESPECÍFICAMENTE POR MÍ PARA PODER ORDENAR LA TABLA DE LAS NOTAS CON DECIMALES Y ME HA LLEVADO UN MONTÓN (aunque cuando lo miras es sencillo) ESTOY ORGULLOSA 
-
-        if(n != 5){
-
-          
-          if (dir == "asc") {
-            if (x.textContent.toLowerCase() > y.textContent.toLowerCase()) {
-              //if so, mark as a switch and break the loop:
-              shouldSwitch= true;
-              break;
-            }
-          } else if (dir == "desc") {
-            if (x.textContent.toLowerCase() < y.textContent.toLowerCase()) {
-            //if so, mark as a switch and break the loop:
-            shouldSwitch = true;
-            break;
-          }
-        }
-        
-      } else {
-
-        if (dir == "asc") {
-          if (parseFloat(x.textContent) > (parseFloat(y.textContent))) {
-            //if so, mark as a switch and break the loop:
-            shouldSwitch= true;
-            break;
-          }
-        } else if (dir == "desc") {
-          if (parseFloat(x.textContent) < (parseFloat(y.textContent))) {
-          //if so, mark as a switch and break the loop:
-          shouldSwitch = true;
-          break;
-        }
-      }
-
-
-
-
-      }
+const url = "albumes.json"
+getAlbumes()
 
 
 
@@ -73,87 +9,50 @@ function sortTable(n) {
 
 
 
+async function getAlbumes() {
+  const response = await fetch(url)
+  const json = await response.json()
+  const tabla = document.getElementById("myTable")  
+  const yokai = document.getElementById("yokai")  
 
-      }
-      if (shouldSwitch) {
-        /*If a switch has been marked, make the switch
-        and mark that a switch has been done:*/
-        rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
-        switching = true;
-        //Each time a switch is done, increase this count by 1:
-        switchcount ++;      
-      } else {
-        /*If no switching has been done AND the direction is "asc",
-        set the direction to "desc" and run the while loop again.*/
-        if (switchcount == 0 && dir == "asc") {
-          dir = "desc";
-          switching = true;
-        }
-      }
-    }
-  }
+  json.albumes.forEach(album => {
+    var row = tabla.insertRow(1);
+    var cell1 = row.insertCell(0);
+    var cell2 = row.insertCell(1);
+    var cell3 = row.insertCell(2);
+    var cell4 = row.insertCell(3);
+    var cell5 = row.insertCell(4);
+    var cell6 = row.insertCell(5);
+    var cell7 = row.insertCell(6);
 
+    cell1.innerHTML = "<img src=\"imagenesalbumes/"+album.id+".png\" height=\"100px\", width=\"100px\"></img>"
+    cell2.innerHTML = "<p><a href=\"#"+album.id+"\">"+album.titulo+"</p>"
+    cell3.innerHTML = "<p>"+album.artista+"</p>"
+    cell4.innerHTML = "<p>"+album.duracion+" min</p>"
+    cell5.innerHTML = "<p>"+album.fechaSalida+"</p>"
+    cell6.innerHTML = "<p>"+album.nota+"</p>"
+    cell7.innerHTML = "<p>"+album.fechaReview+"</p>"
 
-
-
-
-
-
-  function sortTableNota(n) {
-    var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
-    table = document.getElementById("myTable");
-    switching = true;
-    //Set the sorting direction to ascending:
-    dir = "asc"; 
-    /*Make a loop that will continue until
-    no switching has been done:*/
-    while (switching) {
-      //start by saying: no switching is done:
-      switching = false;
-      rows = table.rows;
-      /*Loop through all table rows (except the
-      first, which contains table headers):*/
-      for (i = 1; i < (rows.length - 1); i++) {
-        //start by saying there should be no switching:
-        shouldSwitch = false;
-        /*Get the two elements you want to compare,
-        one from current row and one from the next:*/
-        x = rows[i].getElementsByTagName("TD")[4];
-        y = rows[i + 1].getElementsByTagName("TD")[4];
-        /*check if the two rows should switch place,
-        based on the direction, asc or desc:*/
-        if (dir == "asc") {
+    //append div to yokai
+    var div = document.createElement("div");
+    div.innerHTML = "<div id=\""+album.id+"\" class=\"overlay\"><div class=\"popup\"><h2 class=\"nota\">"+album.nota+"/10</h2><h2 style=\"padding-right: 20%;\">"+album.titulo+"</h2> <h6>Por "+album.artista+"</h6> <a class=\"close\" href=\"#\">&times;</a> <div class=\"content\"> <p>"+album.review+"</p> <hr><iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/album/"+album.link+"?utm_source=generator\" width=\"100%\" height=\"1000\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe></div></div></div>"
+    yokai.appendChild(div);
+  });
 
 
-          if ((x.innerHTML.toLowerCase()) > (y.innerHTML.toLowerCase())) {
-            //if so, mark as a switch and break the loop:
-            shouldSwitch= true;
-            break;
-          }
-        } else if (dir == "desc") {
-          if ((x.innerHTML.toLowerCase()) < (y.innerHTML.toLowerCase())) {
-            //if so, mark as a switch and break the loop:
-            shouldSwitch = true;
-            break;
-          }
-        }
-      }
-      if (shouldSwitch) {
-        /*If a switch has been marked, make the switch
-        and mark that a switch has been done:*/
-        rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
-        switching = true;
-        //Each time a switch is done, increase this count by 1:
-        switchcount ++;      
-      } else {
-        /*If no switching has been done AND the direction is "asc",
-        set the direction to "desc" and run the while loop again.*/
-        if (switchcount == 0 && dir == "asc") {
-          dir = "desc";
-          switching = true;
-        }
-      }
-    }
-  }
+}
 
 
+/*
+    {
+        "titulo": "",
+        "id": "",
+        "artista": "",
+        "duracion": "",
+        "fechaSalida": "",
+        "nota": "",
+        "fechaReview": "",
+        "review":"",
+        "link":""
+    },
+*/
