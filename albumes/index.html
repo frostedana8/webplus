@@ -13,490 +13,55 @@
     <link rel="stylesheet" href="styles/style.css">
     <script defer src="scripts/script.js"></script>
     <script defer src="scripts/sortTable.js"></script>
-
-    
-
-
-<style>
-
-
-
-
-
-
-</style>
-
-<script>
-
-
-</script>
-
-
 </head>
 
 
 <body style="padding:1%">
-  <header><button style="position:absolute; top: 10px; right: 10px; font-size: large; background-color: rgb(54, 92, 109);"> <a href="https://frostedana8.github.io/pajas.cum/">Volver al índice</a></button></header>
 
-<h1>Archivo del hilo de álbumes</h1> 
+  <header><button style="position:absolute; top: 10px; right: 10px; font-size: large; background-color: rgb(54, 92, 109);"> <a href="https://frostedana8.github.io/pajas.cum/">Volver al índice</a></button>
+  </header>
 
-<h5><a href="https://twitter.com/turboputa/status/1557514741224017922" target=”_blank”>Ver hilo original en Twitter</a></h5>
-<p>Esta web es compleja de programar para mis capacidades y aún está en proceso. He de copiar más álbumes y mejorar el aspecto. Ruego paciencia. <br>
-Ah, sí, Spotify chupa huevo y sus iframes no se pueden cambiar dinámicamente de altura, así que todas las integraciones de Spotify son grandes de más para intentar evitar que hayan tres scrolls a la vez en pantalla (de las malas opciones, la he considerado la menos mala).</p>
-<h5>Haz click en las cabeceras de las columnas para ordenarlas</h5>
 
 
+  <h1>Archivo del hilo de álbumes</h1> 
 
+  <h5><a href="https://twitter.com/turboputa/status/1557514741224017922" target=”_blank”>Ver hilo original en Twitter</a></h5>
+  <p>Esta web es compleja de programar para mis capacidades y aún está en proceso. He de copiar más álbumes y mejorar el aspecto. Ruego paciencia. <br>
+  Ah, sí, Spotify chupa huevo y sus iframes no se pueden cambiar dinámicamente de altura, así que todas las integraciones de Spotify son grandes de más para intentar evitar que hayan tres scrolls a la vez en pantalla (de las malas opciones, la he considerado la menos mala).</p>
+  <h5>Haz click en las cabeceras de las columnas para ordenarlas</h5>
 
-  
-<!-- 10000 gecs, power of life, 1000 gecs, take me to your leader, one x, hawaii pt2, cuatro chavales, prestame un sentimiento, zaba-->
 
 
-<main>
 
-  
-<table id="myTable">
-    <tr>
-      
-      <th><p>Imágen</p></th>
-      <th onclick="sortTable(1)"><p>Álbum</p></th>
-      <th onclick="sortTable(2)"><p>Artista</p></th>
-      <th onclick="sortTable(3)"><p>Duración</p></th>
-      <th onclick="sortTable(4)"><p>Fecha de salida (Y/M/D)</p></th>
-      <th onclick="sortTable(5)"><p>Nota (sobre 10)</p></th>
-      <th onclick="sortTable(6)"><p>Fecha de review (Y/M/D)</p></th>
-    </tr>
-
-
-<!--HTML culero que me he robado de la misma web india que el CSS y bueno he borrado las cosas que sobraban (soy muy buena programadora) estos botones son debug-->
-
-<!-- PLANTILLA
-
-    <tr>
-      <td><p><img src="imagenesalbumes/.png" height="100px", width="100px"></td></p>
-      <td><p><a href="#id">Titulo</a></td></p>
-      <td><p>Artista</td></p>
-      <td><p>Duración</td></p>
-      <td><p>Salida aaaa/mm/dd</td></p>
-      <td><p>Nota</td></p>
-      <td><p>FechaReview aaaa/mm/dd</td></p>
-    </tr>
-
-    <div id="id" class="overlay">
-      <div class="popup">
-        <h2 class="nota">Nota/10</h2>
-        <h2 style="padding-right: 20%;">Titulo</h2> <h6>Por Artista</h6>
-        <a class="close" href="#">&times;</a>
-        <div class="content">
-          <p>
-            Review review review
-          </p>
-          <hr>
-          IFRAME DE SPOTIFY o equivalente (height 1000px)
-        </div>
-      </div>
-    </div>
-
-
--->
-
-
-
-
-<tr>
-  <td><p><img src="imagenesalbumes/operationdoomsday.png" height="100px", width="100px"></td></p>
-  <td><p><a href="#operationdoomsday">Operation: Doomsday</a></td></p>
-  <td><p>MF DOOM</td></p>
-  <td><p>58 min</td></p>
-  <td><p>1999/10/19</td></p>
-  <td><p>4.5</td></p>
-  <td><p>2023/02/13</td></p>
-</tr>
-
-<div id="operationdoomsday" class="overlay">
-  <div class="popup">
-    <h2 class="nota">4.5/10</h2>
-    <h2 style="padding-right: 20%;">Operation: Doomsday</h2> <h6>Por MF DOOM</h6>
-    <a class="close" href="#">&times;</a>
-    <div class="content">
-      <p>
-        El primer álbum de MF DOOM, a través de skits narra el nacimiento de un villano. Acorde, muchas de las canciones contienen pequeños fragmentos de canciones, sonidos o instrumentos de series y películas de superhéroes antiguas además de sampleo de jazz. Es un álbum algo extraño y definitivamente poco convencional pero que aún así consigue tener un sonido decente y todas las partes encajan entre ellas, aunque se me ha hecho algo pesado de escuchar después de un rato. Mis canciones favoritas han sido <strong>Doomsday</strong>, <strong>Red and Gold</strong> y <strong>Tick, Tick...</strong> siendo esta última la más inusual del álbum.
-      </p>
-      <hr>
-      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/5bjUbZPVTEQcb6W3LquX1E?utm_source=generator" width="100%" height="1000" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-        </div>
-  </div>
-</div>
-
-
-
-
-<tr>
-  <td><p><img src="imagenesalbumes/kakigorigalaxyastronaut.png" height="100px", width="100px"></td></p>
-  <td><p><a href="#kakigorigalaxyastronaut">Kakigori Galaxy Astronaut</a></td></p>
-  <td><p>DEMONDICE</td></p>
-  <td><p>23 min</td></p>
-  <td><p>2019/03/02</td></p>
-  <td><p>9</td></p>
-  <td><p>2023/01/18</td></p>
-</tr>
-
-<div id="kakigorigalaxyastronaut" class="overlay">
-  <div class="popup">
-    <h2 class="nota">9/10</h2>
-    <h2 style="padding-right: 20%;">Kakigori Galaxy Astronaut</h2> <h6>Por DEMONDICE</h6>
-    <a class="close" href="#">&times;</a>
-    <div class="content">
-      <p>
-        Cortito y muy ligero de escuchar, creo que mi album favorito de Demondice. <strong>Wannabe</strong> y <strong>Legendary Stray</strong> son quizá las canciones más parecidas a lo que suele ser su música pero aún así tienen un aire más brillante y electrónico, que se intensifica en las demás canciones. <strong>Alt-Er-Native!!</strong> es el mayor exponente de esto, el instrumental podría estar perfectamente hecho por Snail's House (y quizá por eso no pega tan bien que rapeen por encima). Además el album tiene temática en general del espacio, eso le suma puntos. <br>
-        La primera mitad es el clásico Demondice rapeando sobre ser la mejor y demás. Pero las tres últimas canciones son las mejores, son canciones de Karen cantando sobre su vida y sus sentimientos. En <strong>Astronaut</strong> habla sobre hostilidad, soledad, y aislamiento. <strong>Hazy Skyscraper</strong> es una petición de compañía a una persona en sus mismas condiciones de soledad a pesar de admitir no ser buena persona. Gran parte de <strong>Soundless</strong> es una nota de suicidio hasta que habla de "una melodía que no había oído antes, sonaba como una oportunidad en la vida" refiriendose a una persona que le hizo sentir cosas que nunca antes le había hecho sentir nadie y consideraba imposibles en ese punto, y haciendole reevaluar su deseo de vivir.<br>
-        Es un album muy bueno con muy pocas cosas que no me gusten, tiene las canciones más bonitas de Demondice y también algo más animado. Las que más me gustan son <strong>Soundless</strong>, <strong>Astronaut</strong> y <strong>Hazy Skyscraper</strong>, las que menos <strong>Legendary Stray</strong> y <strong>Alt-Er-Native!!</strong>.
-      </p>
-      <hr>
-      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/7euk1QIlp9h4iodxF8FsQp?utm_source=generator" width="100%" height="1000" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-    </div>
-  </div>
-</div>
-
-
-
-<tr>
-  <td><p><img src="imagenesalbumes/comeoverwhenyouresoberpt2.png" height="100px", width="100px"></td></p>
-  <td><p><a href="#comeoverwhenyouresoberpt2">Come Over When You're Sober, Pt.2</a></td></p>
-  <td><p>Lil Peep</td></p>
-  <td><p>45 min</td></p>
-  <td><p>2018/09/09</td></p>
-  <td><p>4.5</td></p> 
-  <td><p>2023/01/08</td></p>
-</tr>
-
-<div id="comeoverwhenyouresoberpt2" class="overlay">
-  <div class="popup">
-    <h2 class="nota">4.5/10</h2>
-    <h2 style="padding-right: 20%;">Come Over When You're Sober, Pt.2</h2> <h6>Por Lil Peep</h6>
-    <a class="close" href="#">&times;</a>
-    <div class="content">
-      <p>
-        La mayoría de lo que dije sobre la primera parte se aplica aquí también, sin embargo habían un par de canciones que no conocía de este álbum y la menor sensación de familiaridad probablemente ha sido negativa en una primera escucha aunque no sea para nada objetiva. También es el doble de largo que la primera parte, las canciones suenan parecidas entre sí y se me hace dificil diferenciar algunas pero son buenas así que no es una queja. <strong>Life is Beautiful</strong> es mi favorita, y <strong>Falling Down</strong> y <strong>Runaway</strong> también me han gustado mucho (yep, por fin una buena "Runaway"). Creo que <strong>Leanin</strong> y <strong>Fingers</strong> son las que menos me han gustado. 
-      </p>
-      <hr>
-      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/52JymrguPgkmmwLaWIusst?utm_source=generator" width="100%" height="1000" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-  </div>
-</div>
-
-
-
-
-
-<tr>
-  <td><p><img src="imagenesalbumes/comeoverwhenyouresoberpt1.png" height="100px", width="100px"></td></p>
-  <td><p><a href="#comeoverwhenyouresoberpt1">Come Over When You're Sober, Pt.1</a></td></p>
-  <td><p>Lil Peep</td></p>
-  <td><p>23 min</td></p>
-  <td><p>2017/08/15</td></p>
-  <td><p>5.5</td></p>
-  <td><p>2023/01/08</td></p>
-</tr>
-
-
-<div id="comeoverwhenyouresoberpt1" class="overlay">
-  <div class="popup">
-    <h2 class="nota">5.5/10</h2>
-    <h2 style="padding-right: 20%;">Come Over When You're Sober, Pt.1</h2> <h6>Por Lil Peep</h6>
-    <a class="close" href="#">&times;</a>
-    <div class="content">
-      <p>
-        Hacía años que no escuchaba nada de Lil Peep y me trae nostalgia aunque deba ser de una mala época. Aún así quizás tras tanto tiempo sin escucharlo y haber cambiado tanto quien y como soy pueda volver a escucharlo desde cero. Mis gustos no han cambiado demasiado, eso sí, así que <strong>Benz Truck</strong>, <strong>Save That Shit</strong> y <strong>Awful Things</strong> siguen siendo mis favoritas. Es un álbum cortito y tampoco diría que haya ninguna canción que me disguste pero quiás <strong>Problems</strong> no me gusta tanto como las demás.
-      </p>
-      <hr>
-      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/6GkrA9XjOpEFkep0TIfFB8?utm_source=generator" width="100%" height="1000" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>    </div>
-  </div>
-</div>
-
-
-
-<tr>
-  <td><p><img src="imagenesalbumes/yeezus.png" height="100px", width="100px"></td></p>
-  <td><p><a href="#yeezus">Yeezus</a></td></p>
-  <td><p>Kanye West</td></p>
-  <td><p>40 min</td></p>
-  <td><p>2013/06/18</td></p>
-  <td><p>4.5</td></p>
-  <td><p>2023/01/04</td></p>
-</tr>
-
-<div id="yeezus" class="overlay">
-  <div class="popup">
-    <h2 class="nota">4.5/10</h2>
-    <h2 style="padding-right: 20%;">Yeezus</h2> <h6>Por Kanye West</h6>
-    <a class="close" href="#">&times;</a>
-    <div class="content">
-      <p>
-        Las cosas que me gustan de este álbum me encantan, me enamoran. Principalmente me han gustado las bases (muchas de ellas producidas por Daft Punk) que consisten en electrónica cruda, ácida, industrial, dura, violenta, repetitiva, tres notas de un sintetizador agresivo en bucle y samples rotos y troceados con Kanye gritando por encima. Acaba produciendo una sensación parecida a Death Grips pero lo consigue sin el uso de distorsión. Es ahí donde acaba lo bueno, porque como tantas veces he dicho ya, lo peor del álbum es el propio Ye. Todas las bases me parecen impecables y muy buenas si se les da un uso apropiado, que no es el caso. Canciones como <strong>Blood On The Leaves</strong>, que es tremenda pero de los 6 minutos de canción solo se pueden disfrutar 2, tiene intro y outro horribles y largas, casi me recuerda a Runaway. Y las letras, Kanye hablando sobre escavitud, sexo, alcohol, dinero, amplias referencias al nazismo y al KKK... que si, que eres muy edgy. Mis canciones favoritas han sido <strong>Blood On The Leaves</strong>, <strong>On Sight</strong>, <strong>Black Skinhead</strong> y <strong>Bound 2</strong>... olvidé decir, <strong>Bound 2</strong> está en este álbum, aunque no suene para nada como las demás tracks en este. Las que menos me han gustado han sido <strong>I'm In It</strong> y <strong>Hold My Liquor</strong>.
-      </p>
-      <hr>
-      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/7D2NdGvBHIavgLhmcwhluK?utm_source=generator" width="100%" height="1000" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-    </div>
-  </div>
-</div>
-
-
-
-
-
-
-<tr>
-  <td><p><img src="imagenesalbumes/omniumgatherum.png" height="100px", width="100px"></td></p>
-  <td><p><a href="#omniumgatherum">Omnium Gatherum</a></td></p>
-  <td><p>King Gizzard & the Lizard Wizard</td></p>
-  <td><p>80 min</td></p>
-  <td><p>2022/04/22</td></p>
-  <td><p>5</td></p>
-  <td><p>2022/12/17</td></p>
-</tr>
-
-<div id="omniumgatherum" class="overlay">
-  <div class="popup">
-    <h2 class="nota">5/10</h2>
-    <h2 style="padding-right: 20%;">Omnium Gatherum</h2> <h6>Por King Gizzard & the Lizard Wizard</h6>
-    <a class="close" href="#">&times;</a>
-    <div class="content">
-      <p>
-        No confundir con el grupo de metal melódico finlandés también llamado Omnium Gatherum. Este álbum se compuso tras el confinamiento, tiempo durante el cual cada miembro de King Gizzard había desarrollado sus propias ideas y las pusieron en conjunto en algunas de las sesiones de estudio más largas que ha tenido el grupo. Es por eso que este álbum engloba gran variedad de géneros, desde metal hasta hip hop. No estás oyendo mal, King Gizzard ha hecho rap y es tremendo. <strong>Sadie Sorceress</strong> y <strong>The Grim Reaper</strong> son probablemente mis canciones favoritas jamás de este grupo aunque no suenen como nada más que han hecho y probablemente no tuvieran mucha experiencia con el género. Sin embargo, el resto del álbum es bastante mediocre o directamente malo, resulta largo y pesado incluso aunque algunas canciones tengan partes pegadizas no creo que merezca la pena escuchar la duración completa de este. <strong>The Dripping Tap</strong>, por ejemplo, sería genial como pista de 6 minutos como mucho pero no puedo aguantar 20 minutos de lo mismo, lo siento. La mayoría de canciones del álbum en realidad no son tan malas, pero para mí solo son un estribillo pegadizo y no mucho más, algo que no justifica una escucha de casi hora y media. Mis favoritas aparte de las ya mencionadas han sido <strong>Kepler-22b</strong> y <strong>Persistence</strong>. Las que menos me han gustado han sido <strong>Predator X</strong> y <strong>Gaia</strong>.
-      </p>
-      <hr>
-      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/4tuqA7qbVsPukqsYPPrcF7?utm_source=generator" width="100%" height="1000" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-    </div>
-  </div>
-</div>
-
-<tr>
-  <td><p><img src="imagenesalbumes/snakeeyes.png" height="100px", width="100px"></td></p>
-  <td><p><a href="#snakeeyes">Snake Eyes</a></td></p>
-  <td><p>100 gecs</td></p>
-  <td><p>6 min</td></p>
-  <td><p>2022/12/03</td></p>
-  <td><p>3.5</td></p>
-  <td><p>2022/12/07</td></p>
-</tr>
-
-<div id="snakeeyes" class="overlay">
-  <div class="popup">
-    <h2 class="nota">3.5/10</h2>
-    <h2 style="padding-right: 20%;">Snake Eyes</h2> <h6>Por 100 gecs</h6>
-    <a class="close" href="#">&times;</a>
-    <div class="content">
-      <p>
-        Un pequeño ep de 3 canciones que no me han gustado en especial. <strong>Hey Big Man</strong> diría que es la que más me ha gustado aunque no suena como otras cosas de 100 gecs (pero me gustaría ver más música suya del estilo) y <strong>Torture Me</strong> también está decente. <strong>Runaway</strong>, acorde con cierta otra canción con la que comparte nombre, no me ha entusiasmado, es la que menos me ha gustado de las tres. Al menos es un ep cortito.
-      </p>
-      <hr>
-      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/23lAnLvscWZExyGH8CneJM?utm_source=generator" width="100%" height="1000" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>    </div>
-  </div>
-</div>
-
-
-
-<tr>
-  <td><p><img src="imagenesalbumes/stankface.png" height="100px", width="100px"></td></p>
-  <td><p><a href="#stankface">Stankface</a></td></p>
-  <td><p>Goreshit</td></p>
-  <td><p>53 min</td></p>
-  <td><p>2017/03/12</td></p>
-  <td><p>8</td></p>
-  <td><p>2022/12/07</td></p>
-</tr>
-
-<div id="stankface" class="overlay">
-  <div class="popup">
-    <h2 class="nota">8/10</h2>
-    <h2 style="padding-right: 20%;">Stankface</h2> <h6>Por Goreshit</h6>
-    <a class="close" href="#">&times;</a>
-    <div class="content">
-      <p>
-        Electrónica a veces más suave y a veces no tanto, todas las canciones son muy buenas y no ha habido ninguna que no me haya gustado. Suelo decir que Goreshit ha de ser una inteligencia artificial debido a la cantidad de música que saca y la (normalmente) baja calidad de esta, siendo hardcore o noise demasiado repetitiva o distorsionada como para ser realmente escuchable (y, a veces también, con demasiados gemidos). Este álbum es una de las excepciones, es muy bueno, siento que las canciones son mucho más complejas que la mayoría del resto de su música, muchas de ellas, o al menos partes de muchas, suenan como música de videojuegos antiguos (<strong>Shuffle, Punk!</strong> parece sacada de algún Sonic, <strong>Bar Fight Nostalgia</strong> me ha recordado a Jet Set Radio, <strong>astrds</strong> y <strong>Know Dat Swing</strong> podrían estar sacadas de la campaña o DLC de Splatoon, <strong>Midnight Driver</strong> parece la soundtrack de algún Danganronpa y la base de <strong>Spaced Boss</strong> es directamente chiptune). Las canciones siguen siendo relativamente repetitivas y es por eso que no le doy más nota, pero no creo que tenga ningún fallo realmente. Sin duda de los mejores trabajos de Goreshit. Ninguna canción mala, creo que <strong>Know Dat Swing</strong>, <strong>Bar Fight Nostalgia</strong> y <strong>astrds</strong> son las que más me han gustado.
-
-      </p>
-      <hr>
-      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/6HhZOg2vJaXQxlWKbtcnvO?utm_source=generator" width="100%" height="1000" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>    </div>
-  </div>
-</div>
-
-
-
-<tr>
-  <td><p><img src="imagenesalbumes/wehadgoodtimestogetherdontforgetthat.png" height="100px", width="100px"></td></p>
-  <td><p><a href="#wehadgoodtimestogetherdontforgetthat">we had good times together, don't forget that</a></td></p>
-  <td><p>Sewerslvt</td></p>
-  <td><p>89 min</td></p>
-  <td><p>2021/11/12</td></p>
-  <td><p>7.5</td></p>
-  <td><p>2022/12/02</td></p>
-</tr>
-
-<div id="wehadgoodtimestogetherdontforgetthat" class="overlay">
-  <div class="popup">
-    <h2 class="nota">7.5/10</h2>
-    <h2 style="padding-right: 20%;">we had good times together, don't forget that</h2> <h6>Por Sewerslvt</h6>
-    <a class="close" href="#">&times;</a>
-    <div class="content">
-      <p>En mi opinión esto es lo mejor de Sewerslvt. Muy buena música de fondo mientras haces otras cosas. Al principio estaba intentando prestar más atención per en cierto punto he dejado de pensar, todo ha sido un trance, me he tumbado en la cama y simplemente he escuchado no sé ni por cuanto tiempo. Es por esto que no tengo muy claro que canciones me han gustado más o menos, además que no todas son demasiado diferentes entre ellas. Obviamente diré que la que menos me ha gustado es <strong>borderline</strong>, una especie de interludio compuesto por ruido blanco durante 7 minutos y que ni si quiera suena tan mal al final. En comparación con su álbum anterior, tiene mucho más rítmo y es bastante más melódico, irónico ya que trata precísamente sobre un tema bastante oscuro. Bueno, es un disco de electrónica, no trata ningún tema como tal, pero la temática pretende ser una despedida y nota de amor hacia la pareja de June, quien se quitó la vida. El álbum incorpora 6 canciones sacadas de 2 EPs previos también dedicados a su novia. Todo el dinero recaudado se destinó a la prevención del suicidio, y fue el último proyecto de June, tras el cual tomó la decisión de dejar la música. Cambiando de tema, la gente me ha visto reírme sola por la calle, como explico que es porque en <strong>intertia status</strong> suena Delay Lama...
-      </p>
-      <hr>
-      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/6Hs9pYq5ionwBpGAp6iqi9?utm_source=generator" width="100%" height="1000" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-    </div>
-  </div>
-</div>
-
-
-
-
-
-<tr>
-  <td><p><img src="imagenesalbumes/hilo.png" height="100px", width="100px"></td></p>
-  <td><p><a href="#hilo">HiLo</a></td></p>
-  <td><p>Jack Stauber</td></p>
-  <td><p>44 min</td></p>
-  <td><p>2018/04/14</td></p>
-  <td><p>8.5</td></p>
-  <td><p>2022/12/02</td></p>
-</tr>
-
-<div id="hilo" class="overlay">
-  <div class="popup">
-    <h2 class="nota">8.5/10</h2>
-    <h2 style="padding-right: 20%;">HiLo</h2> <h6>Por Jack Stauber</h6>
-    <a class="close" href="#">&times;</a>
-    <div class="content">
-      <p>Canciones que suenan como escuchar pop de los 80 mientras tienes demasiado sueño en el asiento de atrás del coche. Principalmente se usan guitarras muy suavizadas, sintetizadores y percusión de cajas de ritmo retro, todo tiene demasiado reverb y la voz de Jack casi no se oye entre los instrumentos y su propio eco. Mi canción favorita de lejos es <strong>Dead Weight</strong>, siempre me ha parecido tremenda, sin embargo la mayoría de este álbum es muy bueno y no hay ninguna canción que me desagrade. <strong>Cunk</strong>, <strong>Leopard</strong>, <strong>John & Nancy</strong>, <strong>Small World</strong>, <strong>Pad Thai</strong> y <strong>O.U.R</strong> son las que más me han gustado, pero de nuevo todas están bien. Quizás las más flojas son <strong>Coconut Ranger</strong>, <strong>Beird</strong> y <strong>Getting' My Mom On</strong>.
-      </p>
-      <hr>
-      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/4RsjXMHyCUigESP74GkNHB?utm_source=generator" width="100%" height="1000" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-    </div>
-  </div>
-</div>
-
-
-
-
-<tr>
-  <td><p><img src="imagenesalbumes/ultramadrid.png" height="100px", width="100px"></td></p>
-  <td><p><a href="#ultramadrid">Ultramaldad</a></td></p>
-  <td><p>Goa</td></p>
-  <td><p>30 min</td></p>
-  <td><p>2021/11/11</td></p>
-  <td><p>7</td></p>
-  <td><p>2022/11/30</td></p>
-</tr>
-
-<div id="ultramadrid" class="overlay">
-  <div class="popup">
-    <h2 class="nota">7/10</h2>
-    <h2 style="padding-right: 20%;">Ultramaldad</h2> <h6>Por Goa</h6>
-    <h6>Sugerido por <a href="https://twitter.com/kndlizo" target="_blank" title="Twitter de Abril">Abril</a> e <a href="https://twitter.com/nixvy_13" target="_blank" title="Twitter de Ivy">Ivyel</a></h6>
-    <a class="close" href="#">&times;</a>
-    <div class="content">
-      <p>Me ha gustado bastante más que Love Is Hell. Mientras que el álbum anterior era rap con guitarras, este parece más al revés, rock con percusión de rap y autotune, y las canciones suenan bastante menos agresivas. Aún persiste el problema de muchas canciones haciéndoseme parecidas porque no he escuchado demasiado a Goa de momento. Las canciones que más me han gustado han sido <strong>Mala Fama</strong>, <strong>El Últumo En El Infierno</strong> y <strong>Vomito en mi chaqueta</strong>. Aunque ninguna me ha disgustado en especial, las que creo que han estado más flojas han sido <strong>El Kaza</strong>, <strong>Demonios</strong> (a pesar de ser con Duki) y <strong>Mi Pesadilla</strong>. Además de esa colaboración con Duki, también tiene varias canciones producidas por fish narc, que produjo algunas canciones de Lil Peep. Seguiré escuchando Goa, probablemente si revisitara esto en un tiempo pondría una nota más alta.
-      </p>
-      <hr>
-      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/1Cggrf9GuC7i0fKupVDXUs?utm_source=generator" width="100%" height="1000" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-    </div>
-  </div>
-</div>
-
-
-
-
-
-
-<tr>
-  <td><p><img src="imagenesalbumes/loveishell.png" height="100px", width="100px"></td></p>
-  <td><p><a href="#loveishell">Love Is Hell</a></td></p>
-  <td><p>Goa</td></p>
-  <td><p>22 min</td></p>
-  <td><p>2020/04/17</td></p>
-  <td><p>5</td></p>
-  <td><p>2022/11/28</td></p>
-</tr>
-
-<div id="loveishell" class="overlay" onclick="evento1()">
-  <div class="popup">
-    <h2 class="nota">5/10</h2>
-    <h2 style="padding-right: 20%;">Love Is Hell</h2> <h6>Por Goa</h6>
-    <h6>Sugerido por <a href="https://twitter.com/kndlizo" target="_blank" title="Twitter de Abril">Abril</a></h6>
-    <a class="close" href="#">&times;</a>
-    <div class="content">
-      <p>Rap pero con un uso imporante de elementos como guitarras eléctricas, crashes, rides y demás instrumentalización de rock que le da un sonido muy único. Me gusta bastante el resultado, y además el álbum tiene buen pacing. Las canciones que más me han gustado han sido <strong>El Precio Del Poder</strong>, <strong>Tsunami</strong> y <strong>Ryuk</strong>. La que menos <strong>Belzebú</strong>. Lo que le quita bastante quizás no es tanto de la música de Goa sino mío, y es que como he escuchado poco de este estilo la mayoría se me hace demasiado parecido y me cansa rápido. Probablemente es algo que cambie con el tiempo y con más escucha.
-      </p>
-      <hr>
-      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/0Mda5pfeHjcmQcEaW3b5hD?utm_source=generator" width="100%" height="1000" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-    </div>
-  </div>
-</div>
-
-
-
-
-<tr>
-  <td><p><img src="imagenesalbumes/palemachine.png" height="100px", width="100px"></td></p>
-  <td><p><a href="#palemachine">Pale Machine</a></td></p>
-  <td><p>Bo En</td></p>
-  <td><p>26 min</td></p>
-  <td><p>2013/09/06</td></p>
-  <td><p>6</td></p>
-  <td><p>2022/11/25</td></p>
-</tr>
-
-<div id="palemachine" class="overlay">
-  <div class="popup">
-    <h2 class="nota">6/10</h2>
-    <h2 style="padding-right: 20%;">Pale Machine</h2> <h6>Por Bo En</h6>
-    <a class="close" href="#">&times;</a>
-    <div class="content">
-      <p>No sé si llamarlo experimental, pero definitivamente tiene un sonido único. Principalmente hay una voz y un piano, junto con otra instrumentación ligera, onírica, casi fantasiosa. Pero por otro lado hay una percusión casi constante metálica, mecánica, robótica, además a veces la voz en inglés es sustituida por un vocaloid japonés. En conjunto se crea un sonido extraño y hostil y a la vez extrañamente confortante. Como soñar con maquinara. Como las fantasías de un robot. Dejando eso de lado, no es en su mayoría música que escucharía bajo ninguna circunstancia, aunque el álbum sea tremendo. Las canciones que más me han gustado han sido <strong>Friend</strong>, <strong>Be Okay</strong>, <strong>Pale Machine</strong> y <strong>My Time</strong>. Como dato adicional, <strong>My Time</strong> es parte de la soundtrack oficial de Omori.
-      </p>
-      <hr>
-      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/1a2UnYDnfK25QJKfgHNHnu?utm_source=generator" width="100%" height="1000" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-    </div>
-  </div>
-</div>
-
-
-
-
-
-</div>
-</div>
-</table>
     
+  <!-- 10000 gecs, power of life, 1000 gecs, take me to your leader, one x, hawaii pt2, cuatro chavales, prestame un sentimiento, zaba-->
+
+
+  <main>
+
+      
+    <table id="myTable">
+      <tr>
+        <th><p>Imágen</p></th>
+        <th onclick="sortTable(1)"><p>Álbum</p></th>
+        <th onclick="sortTable(2)"><p>Artista</p></th>
+        <th onclick="sortTable(3)"><p>Duración</p></th>
+        <th onclick="sortTable(4)"><p>Fecha de salida (Y/M/D)</p></th>
+        <th onclick="sortTable(5)"><p>Nota (sobre 10)</p></th>
+        <th onclick="sortTable(6)"><p>Fecha de review (Y/M/D)</p></th>
+      </tr>
+
+      <!-- Aqui se van añadiendo nuevas filas <tr> desde getAlbumes() -->
+    </table>
+        
+    <!-- A este div "yokai" (ya que es invisible pero sus efectos se pueden notar) se le añaden los popups que luego se llamarán desde las filas -->
     <div id="yokai">
-
     </div>
+
+
+  </main>
+
       
-    </main>
-
-<body>
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

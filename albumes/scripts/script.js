@@ -1,6 +1,14 @@
 const url = "albumes.json"
 getAlbumes()
 
+
+
+
+
+
+
+
+
 async function getAlbumes() {
   const response = await fetch(url)
   const json = await response.json()
