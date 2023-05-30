@@ -43,7 +43,97 @@ async function getAlbumes() {
 }
 
 
-/*
+/*,
+    {
+        "titulo": "10,000 gecs",
+        "id": "10000gecs",
+        "artista": "100 gecs",
+        "duracion": "27",
+        "fechaSalida": "2023/03/17",
+        "nota": "3.5",
+        "fechaReview": "2023/03/17",
+        "review":"Una mezcla de géneros abarcando varios estilos nuevos para el duo. Predomina el rock electrónico pero también hay ska y varias canciones experimentales pero en una dirección completamente diferente a la que puedan haber hecho antes, a excepción de unas pocas canciones (que coincide que son las que más me han gustado) se abandona en gran parte la electrónica y se introducen guitarras, saxofones, trombones y trompetas, llegando a crear incluso ambientes circenses en canciones como <strong>I Got My Tooth Removed</strong>, o por ejemplo <strong>The Most Wanted Person In The United States</strong> incorpora sonidos realmente indescriptibles para hacer una canción expermiental e incluso infantil. Sin embargo no son canciones que escucharía. Algunas se salvan, como <strong>mememe</strong>, <strong>757</strong>, <strong>Dumbest Girl Alive</strong> o <strong>Doritos & Fritos</strong> pero el resto no me han gustado.",
+        "link":"2XS5McKf3zdJWpcZ4OkZPZ"
+    },
+    {
+        "titulo": "A Brief Inquiry Into Online Relationships",
+        "id": "abriefinquiryintoonlinerelationships",
+        "artista": "The 1975",
+        "duracion": "59",
+        "fechaSalida": "2018/11/30",
+        "nota": "2.5",
+        "fechaReview": "2023/03/31",
+        "link":"6PWXKiakqhI17mTYM4y6oY",
+        "review": "Este álbum nos presenta principalmente canciones de amor y desamor lentas y melancólicas, tecnopop con claras influencias ochenteras pero a la vez técnicas modernas. El álbum contiene también un par de pistas experimentales e instrumentales. Trata sobre el amor, la sociedad moderna, la tecnología, pero también sobre nihilismo y cinismo. Por desgracia esta música lenta no es mi tipo para nada y aunque sé que tiene su público y me parece que las canciones están construidas fantasticamente no es algo que haya disfrutado de escuchar, como mucho al ser música lenta puede agradarme como música de fondo pero poco más. Las canciones que más me gustaron fueron las más animadas: <strong>It's Not Living (If It's Not With You)</strong>, <strong>I Always Wanna Die (Sometimes)</strong>, y <strong>Love It If We Made It</strong>. En cuanto a las que no me gustaron, realmente todas las no mencionadas, pero la que menos definitivamente fue <strong>The Man Who Married A Robot / Love Theme</strong>"
+    },
+    {
+        "titulo": "POWER OF LIFE",
+        "id": "poweroflife",
+        "artista": "BRADIO",
+        "duracion": "47",
+        "fechaSalida": "2015/06/03",
+        "nota": "",
+        "fechaReview": "2023/04/25",
+        "review":"",
+        "link":"5xdNjKLKfs6ElMaFh9aG7l"
+    },
+    {
+        "titulo": "Take Me To Your Leader",
+        "id": "takemetoyourleader",
+        "artista": "King Geedorah",
+        "duracion": "42",
+        "fechaSalida": "2003/06/17",
+        "nota": "",
+        "fechaReview": "2023/04/07",
+        "review":"",
+        "link":"1mrhahrlJu5JfzgeV6Cy8t"
+    },
+    {
+        "titulo": "",
+        "id": "",
+        "artista": "",
+        "duracion": "",
+        "fechaSalida": "",
+        "nota": "",
+        "fechaReview": "",
+        "review":"",
+        "link":""
+    },
+    {
+        "titulo": "",
+        "id": "",
+        "artista": "",
+        "duracion": "",
+        "fechaSalida": "",
+        "nota": "",
+        "fechaReview": "",
+        "review":"",
+        "link":""
+    },
+    {
+        "titulo": "",
+        "id": "",
+        "artista": "",
+        "duracion": "",
+        "fechaSalida": "",
+        "nota": "",
+        "fechaReview": "",
+        "review":"",
+        "link":""
+    },
+    {
+        "titulo": "",
+        "id": "",
+        "artista": "",
+        "duracion": "",
+        "fechaSalida": "",
+        "nota": "",
+        "fechaReview": "",
+        "review":"",
+        "link":""
+    }
+
+
     {
         "titulo": "",
         "id": "",
