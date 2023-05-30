@@ -135,14 +135,14 @@ async function getAlbumes() {
 
 
     {
-        "titulo": "",
-        "id": "",
-        "artista": "",
-        "duracion": "",
-        "fechaSalida": "",
-        "nota": "",
-        "fechaReview": "",
-        "review":"",
-        "link":""
+        "titulo": "Soothing Music (Get It?)",
+        "id": "soothingmusicgetit",
+        "artista": "Agred",
+        "duracion": "6",
+        "fechaSalida": "2023/05/26",
+        "nota": "9",
+        "fechaReview": "2023/05/30",
+        "review":"Un EP muy cortito, solo cuatro canciones. Aún así deja muy buena impresión, se trata de electrónica que a mi parecer está en el punto perfecto entre hiperpop y lo que sea que haga Goreshit, las canciones son simples pero muy pegadizas, con estribillos instrumentales que recuerdan al hardcore pero también con secciones cantadas. Me parece increíble que ninguna canción de Agred sobrepase las 1000 escuchas en Spotify, es un artista que merece mucho más reconocimiento, tiene muchísimo talento y un estilo propio que en mi opinión aprende de estilos extranjeros como hip-hop, hiperpop, hardcore y noise, pero también tiene una pizca de influencia españoles en ritmos y percusiones (algo que se deja ver incluso mejor en alguna otra de sus pistas). De las cuantro canciones, la que más me ha gustado <strong>The Ultimate 8r8k Song</strong> y la que menos <strong>I'll Prove It</strong>",
+        "link":"59TQwOsF835e7hP9Wkqwb5"
     },
 */
