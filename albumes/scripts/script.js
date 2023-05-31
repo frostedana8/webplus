@@ -83,9 +83,9 @@ async function getAlbumes() {
         "artista": "King Geedorah",
         "duracion": "42",
         "fechaSalida": "2003/06/17",
-        "nota": "",
+        "nota": "8.5",
         "fechaReview": "2023/04/07",
-        "review":"",
+        "review":"King Geedorah es un monstruo espacial, así que no esperes hip-hop convencional. Este personaje de MF Doom aterroriza a los habitantes de la Tierra mientras produce beats, ambos elementos con una gran influencia de la cultura japonesa. Varias canciones se basan en una escala pentatónica oriental y utilizan instrumentos tradicionales (aunque modificados para tener un estilo más moderno) y aprovechan samples de películas niponas. Es precisamente de este medio, de la saga de películas japonsesas de Godzilla, de la que nace originalmente el personaje de King Geedorah: un monstruo espacial de tres cabezas cuyo tormento e invasión de nuestro planeta es relatado desde el punto de vista de los inútiles intentos de resistencia humana mediante el uso de samples en canciones o canciones enteras solo con conversaciones de personajes, como es el caso de la pista de 5 minutos <strong>Monster Zero</strong>. Tanto el estilo musical como la ambientación me parecen impecables. <strong>Anti-Matter</strong>, <strong>I Wonder</strong> y <strong>The Fine Print</strong> son mis favoritas, las que menos han sido <strong>No Snakes Alive</strong>, <strong>One Smart Nigger</strong> y <strong>The Final Hour</strong>",
         "link":"1mrhahrlJu5JfzgeV6Cy8t"
     },
     {
