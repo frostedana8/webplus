@@ -131,9 +131,18 @@ async function getAlbumes() {
         "fechaReview": "",
         "review":"",
         "link":""
-    }
-
-
+    },
+    {
+        "titulo": "The Life Of Pablo",
+        "id": "thelifeofpablo",
+        "artista": "Kanye West",
+        "duracion": "66",
+        "fechaSalida": "",
+        "nota": "3.5",
+        "fechaReview": "2023/05/28",
+        "review":"",
+        "link":"4xM1pUHZp9HsuKNxyOQDR0"
+    },
     {
         "titulo": "Soothing Music (Get It?)",
         "id": "soothingmusicgetit",
