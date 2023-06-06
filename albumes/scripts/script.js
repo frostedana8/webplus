@@ -89,48 +89,92 @@ async function getAlbumes() {
         "link":"1mrhahrlJu5JfzgeV6Cy8t"
     },
     {
-        "titulo": "",
-        "id": "",
-        "artista": "",
-        "duracion": "",
-        "fechaSalida": "",
+        "titulo": "1000 gecs",
+        "id": "1000gecs",
+        "artista": "100 gecs",
+        "duracion": "23",
+        "fechaSalida": "2019/02/31",
         "nota": "",
-        "fechaReview": "",
+        "fechaReview": "2023/04/21",
         "review":"",
-        "link":""
+        "link":"2uhB1KivbFnlkARpbd0Cvu"
     },
     {
-        "titulo": "",
-        "id": "",
-        "artista": "",
-        "duracion": "",
-        "fechaSalida": "",
+        "titulo": "Hawaii: Part II",
+        "id": "hawaiipartii",
+        "artista": "Miracle Musical",
+        "duracion": "42",
+        "fechaSalida": "2012/01/01",
         "nota": "",
-        "fechaReview": "",
+        "fechaReview": "2023/05/04",
         "review":"",
-        "link":""
+        "link":"58dgh1HT2wGkmqI4mQDgoR"
     },
     {
-        "titulo": "",
-        "id": "",
-        "artista": "",
-        "duracion": "",
-        "fechaSalida": "",
+        "titulo": "Cuatro Chavales",
+        "id": "cuatrochavales",
+        "artista": "Carolina Durante",
+        "duracion": "34",
+        "fechaSalida": "2022/01/27",
         "nota": "",
-        "fechaReview": "",
+        "fechaReview": "2023/05/12",
         "review":"",
-        "link":""
+        "link":"164QvBwpVSTy3joQXLwcEE"
     },
     {
-        "titulo": "",
-        "id": "",
-        "artista": "",
-        "duracion": "",
-        "fechaSalida": "",
+        "titulo": "Préstame Un Sentimiento",
+        "id": "prestameunsentimiento",
+        "artista": "Cupido",
+        "duracion": "28",
+        "fechaSalida": "2019/02/14",
         "nota": "",
-        "fechaReview": "",
+        "fechaReview": "2023/05/15",
         "review":"",
-        "link":""
+        "link":"7veKXYhZXIb5glMwXSVvWr"
+    },
+    {
+        "titulo": "ZABA",
+        "id": "zaba",
+        "artista": "Glass Animals",
+        "duracion": "06",
+        "fechaSalida": "2014/06/03",
+        "nota": "",
+        "fechaReview": "2023/05/15",
+        "review":"",
+        "link":"14IOe7ahxQPTwUYUQX3IFi"
+    },
+    {
+        "titulo": "First Year",
+        "id": "firstyear",
+        "artista": "Latadenata",
+        "duracion": "69",
+        "fechaSalida": "2023/02/21",
+        "nota": "",
+        "fechaReview": "2023/05/17",
+        "review":"",
+        "link":"3A5hTSyP6iu4JuQJ5ojuJB"
+    },
+    {
+        "titulo": "Pretty Hate Machine",
+        "id": "prettyhatemachine",
+        "artista": "Nine Inch Nails",
+        "duracion": "49",
+        "fechaSalida": "1989/10/20",
+        "nota": "",
+        "fechaReview": "2023/05/18",
+        "review":"",
+        "link":"3umFHeEpc4yLXtrRcv9gLN"
+    },
+    {
+        "titulo": "Beneath the Toxic Jungle",
+        "id": "beneaththetoxicjungle",
+        "artista": "Rav",
+        "duracion": "32",
+        "fechaSalida": "2015/12/19",
+        "nota": "",
+        "fechaReview": "2023/05/24",
+        "review":"",
+        "link":"0MuuLEo21DiUh9kKyass4Q"
     },
     {
         "titulo": "The Life Of Pablo",
@@ -153,5 +197,16 @@ async function getAlbumes() {
         "fechaReview": "2023/05/30",
         "review":"Un EP muy cortito, solo cuatro canciones. Aún así deja muy buena impresión, se trata de electrónica que a mi parecer está en el punto perfecto entre hiperpop y lo que sea que haga Goreshit, las canciones son simples pero muy pegadizas, con estribillos instrumentales que recuerdan al hardcore pero también con secciones cantadas. Me parece increíble que ninguna canción de Agred sobrepase las 1000 escuchas en Spotify, es un artista que merece mucho más reconocimiento, tiene muchísimo talento y un estilo propio que en mi opinión aprende de estilos extranjeros como hip-hop, hiperpop, hardcore y noise, pero también tiene una pizca de influencia españoles en ritmos y percusiones (algo que se deja ver incluso mejor en alguna otra de sus pistas). De las cuantro canciones, la que más me ha gustado <strong>The Ultimate 8r8k Song</strong> y la que menos <strong>I'll Prove It</strong>",
         "link":"59TQwOsF835e7hP9Wkqwb5"
+    },
+    {
+        "titulo": "Strange Fiction",
+        "id": "strangefiction",
+        "artista": "DEMONDICE",
+        "duracion": "30",
+        "fechaSalida": "2019/08/23",
+        "nota": "",
+        "fechaReview": "2023/06/06",
+        "review":"",
+        "link":"59Rvp0vUaxZO5OgNxCSyTN"
     },
 */
