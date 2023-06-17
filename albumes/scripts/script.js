@@ -181,10 +181,10 @@ async function getAlbumes() {
         "id": "thelifeofpablo",
         "artista": "Kanye West",
         "duracion": "66",
-        "fechaSalida": "",
-        "nota": "3.5",
+        "fechaSalida": "2016/06/10",
+        "nota": "5",
         "fechaReview": "2023/05/28",
-        "review":"",
+        "review":"Caracterizado por sus uso de samples crudos, sonidos tecnológicos y etéreos, y temática religiosa pero a la vez egocéntrica, este disco es como tantos otros en la discografía de Ye: consigue tener buenas canciones a base de tener muchas canciones. Y aunque no es Follow God o Donda con dos o tres canciones recuperables, tampoco es Graduation donde solo hay un par de fallos. En mi opinión este álbum es un 50/50, con canciones que rozan el góspel como <strong>Ultralight Beam</strong> y <strong>Low Lights</strong> capaces de dormir a un paquidermo encocado y otras con bases electrónicas que me parecen mucho mejores. De hecho he descubierto una de mis nuevas canciones favoritas de Kanye, <strong>Saint Pablo</strong>, que junto con <strong>Famous</strong>, <strong>Waves</strong> y <strong>30 Hours</strong> han sido lo mejor que ha ofrecido este álbum y definitivamente de lo mejor de Kanye. Por el otro lado tenemos canciones como <strong>Fade</strong>, <strong>Wolves</strong> o <strong>Facts</strong> que son, junto a las ya mencionadas como góspel, las que menos me han gustado. Cabe añadir que, auqnue ya había escuchado <strong>Pt. 2</strong> antes no me había parecido tan buena hasta que la escuché seguida después de <strong>Father Stretch My Hands Pt. 1</strong> y me he reconciliado con el hecho de que gran parte de esta es en realidad otra canción sampleada (por no decir robada en este punto) para solo disfrutar escuchándola.",
         "link":"4xM1pUHZp9HsuKNxyOQDR0"
     },
     {
@@ -204,9 +204,9 @@ async function getAlbumes() {
         "artista": "DEMONDICE",
         "duracion": "30",
         "fechaSalida": "2019/08/23",
-        "nota": "",
+        "nota": "4",
         "fechaReview": "2023/06/06",
-        "review":"",
+        "review":"En media horita se recopilan algunas de las canciones más bonitas de Demondice junto a una de las peores, que consigue dejar tan mal sabor de boca que arruina el resto del álbum. <strong>Egosa</strong>, <strong>Tsukuribanashi</strong> y <strong>Appasayo</strong> son tres de mis canciones favoritas de Karen y las estas tres obras infravaloradas juntas componen un tercio del álbum. Entre otras cosas también están la especie de intro de anime que es <strong>Strange Fiction</strong> y su mucho mejor versión instrumental. Pero a todo esto se interpone el horror que es <strong>Necessary Evil</strong>, que si no es la peor canción de Demondice queda cerca de ello, y solo eso hace la escucha cuesta arriba.",
         "link":"59Rvp0vUaxZO5OgNxCSyTN"
     },
 */
