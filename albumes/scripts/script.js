@@ -206,7 +206,30 @@ async function getAlbumes() {
         "fechaSalida": "2019/08/23",
         "nota": "4",
         "fechaReview": "2023/06/06",
-        "review":"En media horita se recopilan algunas de las canciones más bonitas de Demondice junto a una de las peores, que consigue dejar tan mal sabor de boca que arruina el resto del álbum. <strong>Egosa</strong>, <strong>Tsukuribanashi</strong> y <strong>Appasayo</strong> son tres de mis canciones favoritas de Karen y las estas tres obras infravaloradas juntas componen un tercio del álbum. Entre otras cosas también están la especie de intro de anime que es <strong>Strange Fiction</strong> y su mucho mejor versión instrumental. Pero a todo esto se interpone el horror que es <strong>Necessary Evil</strong>, que si no es la peor canción de Demondice queda cerca de ello, y solo eso hace la escucha cuesta arriba.",
-        "link":"59Rvp0vUaxZO5OgNxCSyTN"
+        "review": "En media horita se recopilan algunas de las canciones más bonitas de Demondice junto a una de las peores, que consigue dejar tan mal sabor de boca que arruina el resto del álbum. <strong>Egosa</strong>, <strong>Tsukuribanashi</strong> y <strong>Appasayo</strong> son tres de mis canciones favoritas de Karen y las estas tres obras infravaloradas juntas componen un tercio del álbum. Entre otras cosas también están la especie de intro de anime que es <strong>Strange Fiction</strong> y su mucho mejor versión instrumental. Pero a todo esto se interpone el horror que es <strong>Necessary Evil</strong>, que si no es la peor canción de Demondice queda cerca de ello, y solo eso hace la escucha cuesta arriba.",
+        "link": "59Rvp0vUaxZO5OgNxCSyTN"
     },
+    {
+        "titulo": "Rockport Espacial",
+        "id": "rockportespacial",
+        "artista": "Kidd Keo",
+        "duracion": "17",
+        "fechaSalida": "2020/07/12",
+        "nota": "",
+        "fechaReview": "2023/07/05",
+        "review": "",
+        "link": "1RHKamkIrSEQAIUfsbYXvB"
+    },
+    {
+        "titulo": "Rockport Espacial 2",
+        "id": "rockportespacial2",
+        "artista": "Kidd Keo",
+        "duracion": "19",
+        "fechaSalida": "2021/10/07  ",
+        "nota": "",
+        "fechaReview": "2023/07/05",
+        "review": "",
+        "link": "7eIU95LtCeZ3Ud3Lg5z4k6"
+    },
+    
 */
