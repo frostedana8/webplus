@@ -215,9 +215,9 @@ async function getAlbumes() {
         "artista": "Kidd Keo",
         "duracion": "17",
         "fechaSalida": "2020/07/12",
-        "nota": "",
+        "nota": "9.5",
         "fechaReview": "2023/07/05",
-        "review": "",
+        "review": "Un EP de 5 canciones muy sólido y fresco que mezcla el trap por el que es conocido Kidd Keo con house y trance por parte de ambos productores invitados (Enry-K y Yay). Esto nos deja una escucha muy novedosa y refrescante basada en esta mezcla de estilos que casa a la perfección. Las canciones no suenan demasiado distintas entre sí, pero no es algo malo ya que son todas muy buenas y son poquitas canciones. Es por esto que tampoco soy capaz de decir que una canción me haya gustado más o menos, a excepción de <strong>Ma Vie</strong> que sobresale ligeramente.",
         "link": "1RHKamkIrSEQAIUfsbYXvB"
     },
     {
@@ -226,9 +226,9 @@ async function getAlbumes() {
         "artista": "Kidd Keo",
         "duracion": "19",
         "fechaSalida": "2021/10/07  ",
-        "nota": "",
+        "nota": "4",
         "fechaReview": "2023/07/05",
-        "review": "",
+        "review": "Esta vez el EDM no es el enfoque principal del álbum, aunque hay un par de canciones que mantienen los drops de house de Rockport Espacial la mayoría de las canciones tienen un estilo distinto, más cercano al trap o al pop. Me parece que pierde la identidad house y trance para dar paso a simplemente proyectos de trap con un fuerte toque electrónico. No suenan mal pero no es lo que busco en una segunda parte de Rockport Espacial. <strong>Soy Así (Summer Mix)</strong> y <strong>Drifting & Burning</strong> son las que más me han gustado porque son las que mantienen esos drops de house, y <strong>Corrido Espacial</strong> y <strong>Yo Con Mi Man (Remix)</strong> son las que menos me han gustado porque son las que más se desvían del estilo del primer álbum.",
         "link": "7eIU95LtCeZ3Ud3Lg5z4k6"
     },
     
