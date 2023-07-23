@@ -127,9 +127,9 @@ async function getAlbumes() {
         "artista": "Cupido",
         "duracion": "28",
         "fechaSalida": "2019/02/14",
-        "nota": "",
+        "nota": "6",
         "fechaReview": "2023/05/15",
-        "review":"",
+        "review":"Electropop español muy tranquilito en el que participa Pimp Flaco. Contrastando con la imagen que se pueda tener de su música lo que hay aquí es relativamente empalagoso habiendo canciones tanto de amor como de desamor. Las canciones se me hacen un poco lentas de más pero son muy bonitas y pegadizas. Mis favoritas han sido <strong>No Sabes Mentir</strong> y <strong>Telepatía</strong>, la que menos ha sido <strong>El Tiempo Es Oro</strong>.",
         "link":"7veKXYhZXIb5glMwXSVvWr"
     },
     {
