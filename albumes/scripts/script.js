@@ -72,9 +72,9 @@ async function getAlbumes() {
         "artista": "BRADIO",
         "duracion": "47",
         "fechaSalida": "2015/06/03",
-        "nota": "",
+        "nota": "2",
         "fechaReview": "2023/04/25",
-        "review":"",
+        "review":"Rock japonés con un toque jazzy que le da un sonido bastante animado y único. Por desgracia no soy fan del rock a menos que tenga algo especial para atraerme y este álbum no lo tiene, además la letra queda completamente perdida ya que no se japonés. El sonido es muy buen rollero y estoy segura de que a alguien le gustará, con sus trompetas, sus bajos y sus cosas, pero no es lo mío. Aún habiendolo escuchado varias veces las canciones se me hacen bastante similares y no soy capaz de discriminar las que más o menos me hayan gustado.",
         "link":"5xdNjKLKfs6ElMaFh9aG7l"
     },
     {
@@ -116,9 +116,9 @@ async function getAlbumes() {
         "artista": "Carolina Durante",
         "duracion": "34",
         "fechaSalida": "2022/01/27",
-        "nota": "",
+        "nota": "3.5",
         "fechaReview": "2023/05/12",
-        "review":"",
+        "review":"Pop punk español. El pop, sin embargo, no es uno de mis géneros predilectos y para que algo me guste ha de ser especial. A parte de un par de canciones que tratan temas sociales la mayoría de las canciones no son nada del otro mundo, tratando temas específicos que imagino que tendrán su púbilco pero que definitivamente no soy yo. Las canciones que más me han gustado han sido <strong>Granja Escuela</strong> y <strong>Famoso en tres calles</strong>, las que menos son <strong>Aaaaaa#$!&</strong> y <strong>Urbanitas</strong> aunque realmente ninguna canción es demasiado buena.",
         "link":"164QvBwpVSTy3joQXLwcEE"
     },
     {
