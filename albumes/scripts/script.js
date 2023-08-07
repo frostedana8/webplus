@@ -122,17 +122,6 @@ async function getAlbumes() {
         "link":"164QvBwpVSTy3joQXLwcEE"
     },
     {
-        "titulo": "Préstame Un Sentimiento",
-        "id": "prestameunsentimiento",
-        "artista": "Cupido",
-        "duracion": "28",
-        "fechaSalida": "2019/02/14",
-        "nota": "6",
-        "fechaReview": "2023/05/15",
-        "review":"Electropop español muy tranquilito en el que participa Pimp Flaco. Contrastando con la imagen que se pueda tener de su música lo que hay aquí es relativamente empalagoso habiendo canciones tanto de amor como de desamor. Las canciones se me hacen un poco lentas de más pero son muy bonitas y pegadizas. Mis favoritas han sido <strong>No Sabes Mentir</strong> y <strong>Telepatía</strong>, la que menos ha sido <strong>El Tiempo Es Oro</strong>.",
-        "link":"7veKXYhZXIb5glMwXSVvWr"
-    },
-    {
         "titulo": "ZABA",
         "id": "zaba",
         "artista": "Glass Animals",
@@ -206,7 +195,7 @@ async function getAlbumes() {
         "fechaSalida": "2019/08/23",
         "nota": "4",
         "fechaReview": "2023/06/06",
-        "review": "En media horita se recopilan algunas de las canciones más bonitas de Demondice junto a una de las peores, que consigue dejar tan mal sabor de boca que arruina el resto del álbum. <strong>Egosa</strong>, <strong>Tsukuribanashi</strong> y <strong>Appasayo</strong> son tres de mis canciones favoritas de Karen y las estas tres obras infravaloradas juntas componen un tercio del álbum. Entre otras cosas también están la especie de intro de anime que es <strong>Strange Fiction</strong> y su mucho mejor versión instrumental. Pero a todo esto se interpone el horror que es <strong>Necessary Evil</strong>, que si no es la peor canción de Demondice queda cerca de ello, y solo eso hace la escucha cuesta arriba.",
+        "review": "En media horita se recopilan algunas de las canciones más bonitas de Demondice junto a una de las peores, que consigue dejar tan mal sabor de boca que arruina el resto del álbum. <strong>Egosa</strong>, <strong>Tsukuribanashi</strong> y <strong>Appasayo</strong> son tres de mis canciones favoritas de Karen y las estas tres obras infravaloradas juntas componen un tercio del álbum. Entre otras cosas también están la especie de intro de anime que es <strong>Strange Fiction</strong> y su versión instrumental. Pero a todo esto se interpone el horror que es <strong>Necessary Evil</strong>, que si no es la peor canción de Demondice queda cerca de ello, y solo eso hace la escucha cuesta arriba.",
         "link": "59Rvp0vUaxZO5OgNxCSyTN"
     },
     {
@@ -225,11 +214,77 @@ async function getAlbumes() {
         "id": "rockportespacial2",
         "artista": "Kidd Keo",
         "duracion": "19",
-        "fechaSalida": "2021/10/07  ",
+        "fechaSalida": "2021/10/07",
         "nota": "4",
         "fechaReview": "2023/07/05",
         "review": "Esta vez el EDM no es el enfoque principal del álbum, aunque hay un par de canciones que mantienen los drops de house de Rockport Espacial la mayoría de las canciones tienen un estilo distinto, más cercano al trap o al pop. Me parece que pierde la identidad house y trance para dar paso a simplemente proyectos de trap con un fuerte toque electrónico. No suenan mal pero no es lo que busco en una segunda parte de Rockport Espacial. <strong>Soy Así (Summer Mix)</strong> y <strong>Drifting & Burning</strong> son las que más me han gustado porque son las que mantienen esos drops de house, y <strong>Corrido Espacial</strong> y <strong>Yo Con Mi Man (Remix)</strong> son las que menos me han gustado porque son las que más se desvían del estilo del primer álbum.",
         "link": "7eIU95LtCeZ3Ud3Lg5z4k6"
+    },
+    {
+        "titulo": "Préstame Un Sentimiento",
+        "id": "prestameunsentimiento",
+        "artista": "Cupido",
+        "duracion": "28",
+        "fechaSalida": "2019/02/14",
+        "nota": "6",
+        "fechaReview": "2023/07/22",
+        "review":"Electropop español muy tranquilito en el que participa Pimp Flaco. Contrastando con la imagen que se pueda tener de su música lo que hay aquí es relativamente empalagoso habiendo canciones tanto de amor como de desamor. Las canciones se me hacen un poco lentas de más pero son muy bonitas y pegadizas. Mis favoritas han sido <strong>No Sabes Mentir</strong> y <strong>Telepatía</strong>, la que menos ha sido <strong>El Tiempo Es Oro</strong>.",
+        "link":"7veKXYhZXIb5glMwXSVvWr"
+    },
+    {
+        "titulo": "8r8k",
+        "id": "8r8k",
+        "artista": "Agred",
+        "duracion": "",
+        "fechaSalida": "",
+        "nota": "",
+        "fechaReview": "20023/07/23",
+        "review": "",
+        "link": ""
+    },
+        {
+        "titulo": "Changes",
+        "id": "changeskgwl",
+        "artista": "King Gizzard & The Lizard Wizard",
+        "duracion": "",
+        "fechaSalida": "",
+        "nota": "",
+        "fechaReview": "2023/07/28",
+        "review": "",
+        "link": ""
+    },
+        {
+        "titulo": "Fishing For Fishies",
+        "id": "fishingforfishies",
+        "artista": "King Gizzard & The Lizard Wizard",
+        "duracion": "",
+        "fechaSalida": "",
+        "nota": "",
+        "fechaReview": "2023/07/29",
+        "review": "",
+        "link": ""
+    },
+    {
+        "titulo": "HIVE",
+        "id": "hive",
+        "artista": "Sub Urban",
+        "duracion": "",
+        "fechaSalida": ",
+        "nota": "",
+        "fechaReview": "2023/08/06",
+        "review": "",
+        "link": ""
+    },
+    {
+        "titulo": "JESUS IS KING",
+        "id": "jesusisking",
+        "artista": "Kanye West",
+        "duracion": "",
+        "fechaSalida": ",
+        "nota": "",
+        "fechaReview": "2023/08/06",
+        "review": "",
+        "link": ""
     },
     
 */
