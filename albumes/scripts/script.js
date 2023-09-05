@@ -78,4 +78,60 @@ async function getAlbumes() {
         "review":"",
         "link":"0MuuLEo21DiUh9kKyass4Q"
     },
+    {
+        "titulo": "8r8k",
+        "id": "8r8k",
+        "artista": "Agred",
+        "duracion": ""46,
+        "fechaSalida": "2023/06/30",
+        "nota": "",
+        "fechaReview": "20023/07/23",
+        "review": "",
+        "link": "2GqUBuVurGrocVHZbIfNgf"
+    },
+        {
+        "titulo": "Changes",
+        "id": "changeskgwl",
+        "artista": "King Gizzard & The Lizard Wizard",
+        "duracion": "40",
+        "fechaSalida": "2022/10/28",
+        "nota": "",
+        "fechaReview": "2023/07/28",
+        "review": "",
+        "link": "05ag5ukffFozEnXGOeuTTD"
+    },
+        {
+        "titulo": "Fishing For Fishies",
+        "id": "fishingforfishies",
+        "artista": "King Gizzard & The Lizard Wizard",
+        "duracion": "42",
+        "fechaSalida": "2019/04/26",
+        "nota": "",
+        "fechaReview": "2023/07/29",
+        "review": "",
+        "link": "5DEL0SSMojInN54XnSWwR1"
+    },
+    {
+        "titulo": "HIVE",
+        "id": "hive",
+        "artista": "Sub Urban",
+        "duracion": "25",
+        "fechaSalida": "2022/06/03",
+        "nota": "",
+        "fechaReview": "2023/08/06",
+        "review": "",
+        "link": "14qlU7pezYKrntRHxmYT8A"
+    },
+    {
+        "titulo": "JESUS IS KING",
+        "id": "jesusisking",
+        "artista": "Kanye West",
+        "duracion": "27",
+        "fechaSalida": "2019/10/25",
+        "nota": "",
+        "fechaReview": "2023/08/06",
+        "review": "",
+        "link": "0FgZKfoU2Br5sHOfvZKTI9"
+    },
+    
 */
