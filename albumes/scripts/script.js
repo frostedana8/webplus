@@ -128,10 +128,21 @@ async function getAlbumes() {
         "artista": "Kanye West",
         "duracion": "27",
         "fechaSalida": "2019/10/25",
-        "nota": "",
+        "nota": "2.5",
         "fechaReview": "2023/08/06",
-        "review": "",
+        "review": "No hay ningún taco en todo el álbum. En su mayoría gospel. Sorprendentemente bueno para ser gospel pero sorprendentemente malo para ser de Kanye West. Aún así tiene un par de canciones buenas, <strong>Follow God</strong> es definitivamente la mejor, y <strong>Use This Gospel</strong> también es buena, pero podría haber sido mucho mejor si el beat que entra en los últimos segundos de canción hubiera estado durante la canción entera. <strong>Every Hour</strong> también es bonita. Aparte de eso no hay mucho que rescatar, Kanye recitando versos de La Biblia y perdiendo cada vez más la cabeza.",
         "link": "0FgZKfoU2Br5sHOfvZKTI9"
+    },
+    {
+        "titulo": "Semantics: The Benzo Chronicles",
+        "id": "semanticsthebenzochronicles",
+        "artista": "Goreshit",
+        "duracion": "38",
+        "fechaSalida": "2015/02/10",
+        "nota": "4",
+        "fechaReview": "2023/09/13",
+        "review": "No es demasiado malo para ser un álbum de Goreshit, es breakcore sorprendentemente entretenido para lo repetitivo que es, pero sigue siendo breakcore canción tras canción. <strong>One Way To Hannover</strong> ya me gustaba de antes, pero ahora también he descubierto <strong>There Are No Angels Here.</strong> y <strong>Broken Promises/Shattered Dreams</strong>, que no suenan nada mal.",
+        "link": "7IWQHF0tCrXGQlqrmjIyCF"
     },
     
 */
