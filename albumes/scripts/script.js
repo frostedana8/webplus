@@ -140,7 +140,7 @@ async function getAlbumes() {
         "duracion": "25",
         "fechaSalida": "2022/06/03",
         "nota": "8",
-        "fechaReview": "2023/08/06",
+        "fechaReview": "2023/09/15",
         "review": "Suena como una mezcla entre pop moderno y Alicia en el País de las Maravillas. Las canciones son muy pegadizas y bastante buenas casi todas. Me gustan mucho <strong>BANDIT</strong> y <strong>PRAMOUR</strong> pero mi favoita es <strong>WHITEWALL</strong>, en la que participan WHOKILLEDXIX, una colaboración que no me esperaba pero que tiene sentido ya que ambos son artistas que obtuvieron buena parte de su fama por TikTok. Otra colaboración que tiene sentido por el mismo motivo es con Bella Poarch en <strong>INFERNO</strong>, aunque esta es la canción que menos me gusta junto con <strong>DIAMOND</strong> Y <strong>HEDON</strong> que no me parecen tan pegadizas.",
         "link": "14qlU7pezYKrntRHxmYT8A"
     },
