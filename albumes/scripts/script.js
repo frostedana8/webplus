@@ -45,7 +45,7 @@ async function getAlbumes() {
 
 /*,
 
-        {
+      {
         "titulo": "Hawaii: Part II",
         "id": "hawaiipartii",
         "artista": "Miracle Musical",
@@ -89,7 +89,7 @@ async function getAlbumes() {
         "review": "",
         "link": "2GqUBuVurGrocVHZbIfNgf"
     },
-        {
+    {
         "titulo": "Changes",
         "id": "changeskgwl",
         "artista": "King Gizzard & The Lizard Wizard",
@@ -100,7 +100,7 @@ async function getAlbumes() {
         "review": "",
         "link": "05ag5ukffFozEnXGOeuTTD"
     },
-        {
+    {
         "titulo": "Fishing For Fishies",
         "id": "fishingforfishies",
         "artista": "King Gizzard & The Lizard Wizard",
@@ -110,17 +110,6 @@ async function getAlbumes() {
         "fechaReview": "2023/07/29",
         "review": "",
         "link": "5DEL0SSMojInN54XnSWwR1"
-    },
-    {
-        "titulo": "HIVE",
-        "id": "hive",
-        "artista": "Sub Urban",
-        "duracion": "25",
-        "fechaSalida": "2022/06/03",
-        "nota": "",
-        "fechaReview": "2023/08/06",
-        "review": "",
-        "link": "14qlU7pezYKrntRHxmYT8A"
     },
     {
         "titulo": "JESUS IS KING",
@@ -143,6 +132,17 @@ async function getAlbumes() {
         "fechaReview": "2023/09/13",
         "review": "No es demasiado malo para ser un álbum de Goreshit, es breakcore sorprendentemente entretenido para lo repetitivo que es, pero sigue siendo breakcore canción tras canción. <strong>One Way To Hannover</strong> ya me gustaba de antes, pero ahora también he descubierto <strong>There Are No Angels Here.</strong> y <strong>Broken Promises/Shattered Dreams</strong>, que no suenan nada mal.",
         "link": "7IWQHF0tCrXGQlqrmjIyCF"
+    },
+    {
+        "titulo": "HIVE",
+        "id": "hive",
+        "artista": "Sub Urban",
+        "duracion": "25",
+        "fechaSalida": "2022/06/03",
+        "nota": "8",
+        "fechaReview": "2023/08/06",
+        "review": "Suena como una mezcla entre pop moderno y Alicia en el País de las Maravillas. Las canciones son muy pegadizas y bastante buenas casi todas. Me gustan mucho <strong>BANDIT</strong> y <strong>PRAMOUR</strong> pero mi favoita es <strong>WHITEWALL</strong>, en la que participan WHOKILLEDXIX, una colaboración que no me esperaba pero que tiene sentido ya que ambos son artistas que obtuvieron buena parte de su fama por TikTok. Otra colaboración que tiene sentido por el mismo motivo es con Bella Poarch en <strong>INFERNO</strong>, aunque esta es la canción que menos me gusta junto con <strong>DIAMOND</strong> Y <strong>HEDON</strong> que no me parecen tan pegadizas.",
+        "link": "14qlU7pezYKrntRHxmYT8A"
     },
     
 */
