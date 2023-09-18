@@ -7,8 +7,6 @@ getAlbumes()
 
 
 
-
-
 async function getAlbumes() {
   const response = await fetch(url)
   const json = await response.json()
@@ -144,5 +142,19 @@ async function getAlbumes() {
         "review": "Suena como una mezcla entre pop moderno y Alicia en el País de las Maravillas. Las canciones son muy pegadizas y bastante buenas casi todas. Me gustan mucho <strong>BANDIT</strong> y <strong>PRAMOUR</strong> pero mi favoita es <strong>WHITEWALL</strong>, en la que participan WHOKILLEDXIX, una colaboración que no me esperaba pero que tiene sentido ya que ambos son artistas que obtuvieron buena parte de su fama por TikTok. Otra colaboración que tiene sentido por el mismo motivo es con Bella Poarch en <strong>INFERNO</strong>, aunque esta es la canción que menos me gusta junto con <strong>DIAMOND</strong> Y <strong>HEDON</strong> que no me parecen tan pegadizas.",
         "link": "14qlU7pezYKrntRHxmYT8A"
     },
-    
+    {
+        "titulo": "PetroDragonic Apocalypse; or, Dawn of Eternal Night: An Annihilation of Planet Earth and the Beginning of Merciless Damnation",
+        "id": "petrodragonicapocalypse",
+        "artista": "King Gizzard & The Lizard Wizard",
+        "duracion": "49",
+        "fechaSalida": "2023/06/16",
+        "nota": "3",
+        "fechaReview": "2023/09/18",
+        "review": "No tengo mucho que contar. Las canciones me parecen largas y pesadas, la única que me parece pegadiza es <strong>Witchcraft</strong> que de hecho me parece muy buena y <strong>Supercell</strong> es tolerable de <strong>Flametrower</strong> me gusta la segunda mitad nada más, y el resto del álbum no me gusta nada. Las canciones son largas y aburridas."
+        "link": "53X6xpjjMDMfZ5IWMyonvC"
+    },
+
+
+
+
 */
