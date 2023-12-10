@@ -150,7 +150,7 @@ async function getAlbumes() {
         "fechaSalida": "2023/06/16",
         "nota": "3",
         "fechaReview": "2023/09/18",
-        "review": "No tengo mucho que contar. Las canciones me parecen largas y pesadas, la única que me parece pegadiza es <strong>Witchcraft</strong> que de hecho me parece muy buena y <strong>Supercell</strong> es tolerable de <strong>Flametrower</strong> me gusta la segunda mitad nada más, y el resto del álbum no me gusta nada. Las canciones son largas y aburridas."
+        "review": "No tengo mucho que contar. Las canciones me parecen largas y pesadas, la única que me parece pegadiza es <strong>Witchcraft</strong> que de hecho me parece muy buena y <strong>Supercell</strong> es tolerable, de <strong>Flametrower</strong> me gusta la segunda mitad nada más, y el resto del álbum no me gusta nada. Las canciones son largas y aburridas."
         "link": "53X6xpjjMDMfZ5IWMyonvC"
     },
 
